@@ -202,6 +202,127 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>AC5BCAB211EEA7CC00BA1DCF</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Grid.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>AC5BCAB311EEA7CC00BA1DCF</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Grid.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>AC5BCAB611EEA7CC00BA1DCF</string>
+						<key>history</key>
+						<array>
+							<string>AC5BCAB411EEA7CC00BA1DCF</string>
+							<string>AC5BCAB511EEA7CC00BA1DCF</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1131, 826}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>477 152 1131 867 0 0 1680 1028 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>AC5BCAB711EEA7CC00BA1DCF</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Constants.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>AC5BCAB811EEA7CC00BA1DCF</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Constants.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>AC5BCABA11EEA7CC00BA1DCF</string>
+						<key>history</key>
+						<array>
+							<string>AC5BCAB911EEA7CC00BA1DCF</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {928, 875}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>639 -17 928 916 0 0 1680 1028 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>AC5BCABB11EEA7CC00BA1DCF</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Constants.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>AC5BCABC11EEA7CC00BA1DCF</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Constants.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>AC5BCABD11EEA7CC00BA1DCF</string>
+						<key>history</key>
+						<array>
+							<string>AC5BCAA611EEA29A00BA1DCF</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1131, 826}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>223 55 1131 867 0 0 1680 1028 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>AC5BCA5C11EE51F400BA1DCF</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>TicTacToeViewController.m</string>
@@ -216,7 +337,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>AC5BCA9F11EEA20500BA1DCF</string>
+						<string>AC5BCABE11EEA7CC00BA1DCF</string>
 						<key>history</key>
 						<array>
 							<string>AC5BCA5811EE519000BA1DCF</string>
@@ -256,7 +377,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>AC5BCAA011EEA20500BA1DCF</string>
+						<string>AC5BCABF11EEA7CC00BA1DCF</string>
 						<key>history</key>
 						<array>
 							<string>AC5BCA6111EE51F400BA1DCF</string>
@@ -354,7 +475,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -405,7 +526,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>AC5BCA9E11EEA20500BA1DCF</string>
+										<string>AC5BCAB111EEA7CC00BA1DCF</string>
 										<key>history</key>
 										<array>
 											<string>AC5BCA1D11EE45AD00BA1DCF</string>
@@ -541,13 +662,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 6}, {299, 256}}</string>
+							<string>{{0, 22}, {299, 256}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -625,9 +746,12 @@
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>AC5BCA5F11EE51F400BA1DCF</string>
-		<string>/Users/mamabear/Documents/TicTacToe/TicTacToe.xcodeproj</string>
-		<string>AC5BCA5C11EE51F400BA1DCF</string>
 		<string>AC25A78E11DD172D00491021</string>
+		<string>AC5BCA5C11EE51F400BA1DCF</string>
+		<string>/Users/mamabear/Documents/TicTacToe/TicTacToe.xcodeproj</string>
+		<string>AC5BCABB11EEA7CC00BA1DCF</string>
+		<string>AC5BCAB711EEA7CC00BA1DCF</string>
+		<string>AC5BCAB211EEA7CC00BA1DCF</string>
 	</array>
 	<key>WindowString</key>
 	<string>18 713 316 315 0 0 1680 1028 </string>
@@ -646,8 +770,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -670,6 +792,8 @@
 							<string>528pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
