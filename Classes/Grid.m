@@ -22,7 +22,7 @@
 @synthesize b20;
 @synthesize b21;
 @synthesize b22;
-//kdhvfhdivhdsivhdskib
+
 
 
 /*
