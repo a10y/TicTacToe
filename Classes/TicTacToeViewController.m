@@ -125,25 +125,23 @@
 	//if (![grid.tapView isFilled]) {
 			
 		if (lastMove == 0) {
-			NSString *viewName = [[NSString alloc] init];
-			viewName = tap.view.description;
-			NSLog(viewName);
+			NSLog(@"[%@ %s] tap view: %@", NSStringFromClass([self class]), _cmd, tap.view);
 			
 			XView *x = [[XView alloc] initWithFrame:tapFrame];
 			[grid addSubview:x];
-			[grid.tapView fill:YES];
+            if([grid.tapView isKindOfClass:[TouchCells class]])	// This should always be true.
+                [((TouchCells *)grid.tapView) fill:YES];
 			[x release];
 			
 			lastMove = 1;
 		}
 		else {
-			NSString *viewName = [[NSString alloc] init];
-			viewName = tap.view.description;
-			NSLog(viewName);
+			NSLog(@"[%@ %s] tap view: %@", NSStringFromClass([self class]), _cmd, tap.view);
 			
 			OView *o = [[OView alloc] initWithFrame:tapFrame];
 			[grid addSubview:o];
-			[grid.tapView fill:YES];
+            if([grid.tapView isKindOfClass:[TouchCells class]])	// This should always be true.
+                [((TouchCells *)grid.tapView) fill:YES];
 			[o release];
 			
 			lastMove = 0;
