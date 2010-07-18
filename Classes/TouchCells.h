@@ -21,6 +21,8 @@
 
 @property										Class				contains;
 
+@property										int					xOrY;		//Either 0 (x) or 1 (y); 
+
 -(id)initWithCell:(CGRect)cell;
 - (id)initGrid:(UIView *)grid WithFrames:(NSArray *)frames;
 

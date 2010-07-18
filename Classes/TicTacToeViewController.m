@@ -120,55 +120,48 @@
 							  grid.tapView.frame.origin.y,
 							  100, 120);
 		 
-		 
-			
-	//if (![grid.tapView isFilled]) {
-			
+
 		if (lastMove == 0) {
 			NSLog(@"[%@ %s] tap view: %@", NSStringFromClass([self class]), _cmd, tap.view);
 			
 			XView *x = [[XView alloc] initWithFrame:tapFrame];
 			[grid addSubview:x];
-            if([grid.tapView isKindOfClass:[TouchCells class]])	// This should always be true.
+            if([grid.tapView isKindOfClass:[TouchCells class]]) {								// This should always be true.
                 [((TouchCells *)grid.tapView) fill:YES];
+				[((TouchCells *)grid.tapView) setXOrY:0];
+				NSLog(@"XOrY: [%d]", [((TouchCells *)grid.tapView) xOrY]);
+				 
 			[x release];
 			
 			lastMove = 1;
+			
+			}
 		}
 		else {
-			NSLog(@"[%@ %s] tap view: %@", NSStringFromClass([self class]), _cmd, tap.view);
+			NSLog(@"[%@ %s] tap view: %@", NSStringFromClass([self class]), _cmd, [tap.view description]);
 			
 			OView *o = [[OView alloc] initWithFrame:tapFrame];
 			[grid addSubview:o];
-            if([grid.tapView isKindOfClass:[TouchCells class]])	// This should always be true.
+            if([grid.tapView isKindOfClass:[TouchCells class]])	{// This should always be true.
                 [((TouchCells *)grid.tapView) fill:YES];
+				[((TouchCells *)grid.tapView) setXOrY:1];
+				NSLog(@"XOrY: [%d]", [((TouchCells *)grid.tapView) xOrY]);
 			[o release];
 			
 			lastMove = 0;
+			}
 		}
-	  //}
 	}
 }
 
 /*
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-	if ([) {
+	if () {
 		
 	}
-*/		
+*/
 			
 
-
-
-
-
-
-
-
-
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 

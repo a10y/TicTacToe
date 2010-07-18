@@ -1,0 +1,2 @@
+In file included from /Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m:9:
+/Users/mamabear/Documents/TicTacToe/Classes/TouchCells.h:28: error: expected identifier before '_Bool'

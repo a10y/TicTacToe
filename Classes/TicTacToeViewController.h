@@ -10,7 +10,6 @@
 #import "XView.h"
 #import "OView.h"
 #import "Grid.h"
-#import "TouchCells.h"
 
 
 @interface TicTacToeViewController : UIViewController {
