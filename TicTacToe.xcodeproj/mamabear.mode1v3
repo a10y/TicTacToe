@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>ACA3BF7611F2D47000F0C87D</string>
+						<string>ACD668FD11F2D7AD00A5B0F5</string>
 						<key>history</key>
 						<array>
-							<string>ACA3BF6011F2CE7600F0C87D</string>
+							<string>ACA3BF7611F2D47000F0C87D</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -313,13 +313,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 16}, {222, 277}}</string>
+							<string>{{0, 14}, {222, 277}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -364,10 +364,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>ACA3BF7511F2D47000F0C87D</string>
+										<string>ACD668FC11F2D7AD00A5B0F5</string>
 										<key>history</key>
 										<array>
-											<string>ACC4767611F2CDBC00333CE7</string>
+											<string>ACA3BF7511F2D47000F0C87D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -421,9 +421,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>ACA3BF4F11F2CDDE00F0C87D</string>
+				<string>ACD668E511F2D6E800A5B0F5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>ACA3BF5011F2CDDE00F0C87D</string>
+				<string>ACD668E611F2D6E800A5B0F5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -542,7 +542,7 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>ACA3BF5111F2CDDE00F0C87D</string>
+				<string>ACD668E711F2D6E800A5B0F5</string>
 				<string>11E0B1FE06471DED0097A5F4</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
@@ -577,8 +577,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>ACA3BF6311F2CE7600F0C87D</string>
-		<string>ACA3BF6411F2CE7600F0C87D</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>AC25A78E11DD172D00491021</string>
@@ -663,7 +661,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>AC25A78E11DD172D00491021</string>
-				<string>ACA3BF5211F2CDDE00F0C87D</string>
+				<string>ACD668E911F2D6E800A5B0F5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -785,13 +783,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>ACA3BF5311F2CDDE00F0C87D</string>
+				<string>ACD668EA11F2D6E800A5B0F5</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>ACA3BF5411F2CDDE00F0C87D</string>
-				<string>ACA3BF5511F2CDDE00F0C87D</string>
-				<string>ACA3BF5611F2CDDE00F0C87D</string>
-				<string>ACA3BF5711F2CDDE00F0C87D</string>
-				<string>ACA3BF5811F2CDDE00F0C87D</string>
+				<string>ACD668EB11F2D6E800A5B0F5</string>
+				<string>ACD668EC11F2D6E800A5B0F5</string>
+				<string>ACD668ED11F2D6E800A5B0F5</string>
+				<string>ACD668EE11F2D6E800A5B0F5</string>
+				<string>ACD668EF11F2D6E800A5B0F5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -955,7 +953,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>ACA3BF5911F2CDDE00F0C87D</string>
+				<string>ACD668F011F2D6E800A5B0F5</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

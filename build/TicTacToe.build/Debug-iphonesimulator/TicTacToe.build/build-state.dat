@@ -1,7 +1,7 @@
 TTicTacToe
 v7
 r0
-t301125355.942660
+t301127564.353595
 cCheck dependencies
 cProcessInfoPlistFile /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
 cCompileXIB /Users/mamabear/Documents/TicTacToe/MainWindow.xib
@@ -210,11 +210,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-t1279432552
+t1279434599
 s238
 
 N/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM
-t1279432552
+t1279434599
 s102
 
 N/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist
@@ -230,7 +230,7 @@ t1279424307
 s8
 
 N/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-t1279432552
+t1279434599
 s39292
 
 N/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToeViewController.nib
@@ -242,24 +242,24 @@ t2
 s0
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o
-t1279424511
+t1279434599
 s5172
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o
-t1279432071
+t1279434599
 s52032
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o
-t1279424511
+t1279434599
 s37028
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList
-c000000004C4277330000000000000408
-t1279424307
+c000000004C429F660000000000000408
+t1279434598
 s1032
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
-t1279432200
+t1279434598
 s48148
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeGrid.o
@@ -271,8 +271,8 @@ t1278140716
 s5096
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o
-t1279432552
-s54644
+t1279434598
+s54744
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.s
 t1278805032
@@ -283,15 +283,15 @@ t2
 s0
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o
-t1279432071
+t1279434599
 s37412
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o
-t1279424511
+t1279434599
 s37212
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
-t1279424510
+t1279434598
 s6296
 
 N/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Grid.plist
@@ -485,14 +485,14 @@ lSLF07#2@50"Analyze /Users/mamabear/Documents/TicTacToe/main.m300851661#30085166
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies301125355#301125355#0(0"0(0#1#0"8602725184#0"0#
+lSLF07#2@18"Check dependencies301127564#301127564#0(0"0(0#1#0"3343187568374212096#0"0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/BoardCells.o /Users/mamabear/Documents/TicTacToe/Classes/BoardCells.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o /Users/mamabear/Documents/TicTacToe/Classes/Constants.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301117311.479589
-e301117311.540855
+s301127399.356326
+e301127399.443186
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o
@@ -501,11 +501,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/mamabear/Documents/TicTacToe/Classes/Constants.m301117311#301117311#0(0"0(0#0#55"/Users/mamabear/Documents/TicTacToe/Classes/Constants.m8602753152#1926"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/Constants.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o0#
+lSLF07#2@63"Compile /Users/mamabear/Documents/TicTacToe/Classes/Constants.m301127399#301127399#0(0"0(0#0#55"/Users/mamabear/Documents/TicTacToe/Classes/Constants.m8603868448#1926"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/Constants.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o /Users/mamabear/Documents/TicTacToe/Classes/Grid.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301124871.341595
-e301124871.451930
+s301127399.154308
+e301127399.262320
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o
@@ -514,11 +514,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/mamabear/Documents/TicTacToe/Classes/Grid.m301124871#301124871#0(0"0(0#0#50"/Users/mamabear/Documents/TicTacToe/Classes/Grid.m8617172032#1916"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/Grid.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o0#
+lSLF07#2@58"Compile /Users/mamabear/Documents/TicTacToe/Classes/Grid.m301127399#301127399#0(0"0(0#0#50"/Users/mamabear/Documents/TicTacToe/Classes/Grid.m8598413888#1916"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/Grid.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o /Users/mamabear/Documents/TicTacToe/Classes/OView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301117311.113738
-e301117311.205432
+s301127399.077949
+e301127399.154190
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o
@@ -527,11 +527,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/mamabear/Documents/TicTacToe/Classes/OView.m301117311#301117311#0(0"0(0#0#51"/Users/mamabear/Documents/TicTacToe/Classes/OView.m8604186912#1918"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/OView.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o0#
+lSLF07#2@59"Compile /Users/mamabear/Documents/TicTacToe/Classes/OView.m301127399#301127399#0(0"0(0#0#51"/Users/mamabear/Documents/TicTacToe/Classes/OView.m8601524992#1918"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/OView.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301124999.916397
-e301125000.049665
+s301127398.752922
+e301127398.839263
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
@@ -540,7 +540,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m301124999#301125000#0(0"0(0#0#66"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m8616817984#1948"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o0#
+lSLF07#2@74"Compile /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m301127398#301127398#0(0"0(0#0#66"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m8603486496#1948"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeGrid.o /Users/mamabear/Documents/TicTacToe/TicTacToeGrid.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s299831466.916800
@@ -582,8 +582,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@64"Compile /Users/mamabear/Documents/TicTacToe/TicTacToeGridModel.m299832812#299832812#0(0"0(0#0#56"/Users/mamabear/Documents/TicTacToe/TicTacToeGridModel.m8633445856#1936"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/TicTacToeGridModel.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeGridModel.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301125350.907522
-e301125352.237405
+s301127398.839383
+e301127398.991466
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o
@@ -592,14 +592,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m301125350#301125352#0(0"0(0#0#69"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m8606140896#1954"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o0#
+lSLF07#2@77"Compile /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m301127398#301127398#0(0"0(0#0#69"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m8603072864#1954"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCell.o /Users/mamabear/Documents/TicTacToe/Classes/TouchCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o /Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301124871.452053
-e301124871.540571
+s301127399.262439
+e301127399.356212
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o
@@ -608,11 +608,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m301124871#301124871#0(0"0(0#0#56"/Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m8617096192#1928"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o0#
+lSLF07#2@64"Compile /Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m301127399#301127399#0(0"0(0#0#56"/Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m8599018080#1928"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/TouchCells.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o /Users/mamabear/Documents/TicTacToe/Classes/XView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301117311.036278
-e301117311.113623
+s301127398.991583
+e301127399.077834
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o
@@ -621,11 +621,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/mamabear/Documents/TicTacToe/Classes/XView.m301117311#301117311#0(0"0(0#0#51"/Users/mamabear/Documents/TicTacToe/Classes/XView.m8604439968#1918"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/XView.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o0#
+lSLF07#2@59"Compile /Users/mamabear/Documents/TicTacToe/Classes/XView.m301127398#301127399#0(0"0(0#0#51"/Users/mamabear/Documents/TicTacToe/Classes/XView.m8602400512#1918"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/XView.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o /Users/mamabear/Documents/TicTacToe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301117310.544054
-e301117310.852560
+s301127398.508418
+e301127398.752803
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
@@ -634,7 +634,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/mamabear/Documents/TicTacToe/main.m301117310#301117310#0(0"0(0#0#42"/Users/mamabear/Documents/TicTacToe/main.m8603177568#1908"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/main.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o0#
+lSLF07#2@50"Compile /Users/mamabear/Documents/TicTacToe/main.m301127398#301127398#0(0"0(0#0#42"/Users/mamabear/Documents/TicTacToe/main.m7593470497056052224#1908"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/main.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/mamabear/Documents/TicTacToe/MainWindow.xib
 s300851654.457206
@@ -653,23 +653,23 @@ x/Users/mamabear/Documents/TicTacToe/TicTacToeViewController.xib
 lSLF07#2@38"CompileXIB TicTacToeViewController.xib300851654#300851659#0(0"0(0#0#63"/Users/mamabear/Documents/TicTacToe/TicTacToeViewController.xib8643657152#589"    cd /Users/mamabear/Documents/TicTacToe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToeViewController.nib /Users/mamabear/Documents/TicTacToe/TicTacToeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CGenerateDSYMFile /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-s301125352.323481
-e301125352.457816
+s301127399.621856
+e301127399.762943
 r1
 xGenerateDSYMFile
 x/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM
 x/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TicTacToe.app.dSYM build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301125352#301125352#0(0"0(0#0#87"/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe8606257088#380"    cd /Users/mamabear/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TicTacToe.app.dSYM build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301127399#301127399#0(0"0(0#0#87"/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe8603422400#380"    cd /Users/mamabear/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM0#
 
 CLd /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe normal i386
-s301125352.237511
-e301125352.323366
+s301127399.443296
+e301127399.621739
 r1
 xLd
 x/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
 xnormal
 xi386
-lSLF07#2@92"Link /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301125352#301125352#0(0"0(0#0#0"8606064032#895"    cd /Users/mamabear/Documents/TicTacToe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -filelist /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe0#
+lSLF07#2@92"Link /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301127399#301127399#0(0"0(0#0#0"8603412000#895"    cd /Users/mamabear/Documents/TicTacToe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -filelist /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe0#
 
 CProcessInfoPlistFile /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
 s300851654.417445
@@ -707,10 +707,10 @@ xcom.apple.compilers.llvm.clang.1_0.analyzer
 lSLF07#2@31"Precompile TicTacToe_Prefix.pch300851624#300851626#0(0"0(0#0#56"/Users/mamabear/Documents/TicTacToe/TicTacToe_Prefix.pch8630897888#1792"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -c /Users/mamabear/Documents/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eerykktgoczfeefrixeisiatcywh/TicTacToe_Prefix.pch.pth0#
 
 CTouch /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-s301125352.458046
-e301125352.461068
+s301127399.763038
+e301127399.766084
 r1
 xTouch
 x/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-lSLF07#2@83"Touch /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app301125352#301125352#0(0"0(0#0#0"8603469792#274"    cd /Users/mamabear/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
+lSLF07#2@83"Touch /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app301127399#301127399#0(0"0(0#0#0"8603517120#274"    cd /Users/mamabear/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
 
