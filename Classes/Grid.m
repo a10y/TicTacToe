@@ -151,8 +151,7 @@
 		
 		self.b11 = [[TouchCells alloc] initWithFrame:middleMiddle];
 		[self addSubview:[self b11]];
-		
-		
+				
 		self.b12 = [[TouchCells alloc] initWithFrame:middleRight];
 		[self addSubview:[self b12]];
 		
@@ -164,7 +163,6 @@
 		
 		self.b22 = [[TouchCells alloc] initWithFrame:bottomRight];
 		[self addSubview:[self b22]];	
-		
 		
     }
 	return self;

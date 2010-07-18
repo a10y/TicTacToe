@@ -14,10 +14,13 @@
 
 @interface TicTacToeViewController : UIViewController {
 	Grid *grid;
-	int lastMove; //variable used to change turn. 0 = x, 1 = o;
+	int lastMove; //variable used to change turn. -1 = x, 1 = o;
+	int moveCount;
 }
 
-
+-(BOOL)xWon;
+-(BOOL)oWon;
+-(BOOL)someoneWon;
 
 @end
 

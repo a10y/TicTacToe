@@ -12,49 +12,18 @@
 @implementation TicTacToeViewController
 
 
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-
-
 - (void)loadView {
-	printf("Hello!");
-	//Background
+	NSLog(@"Loading View...");
 	
-	const CGRect back = CGRectMake(0.0, 0.0, 320.0, 480.0);
+	const CGRect back = CGRectMake(0.0, 0.0, 320.0, 480.0);		//Background frame
 	
 	grid = [[Grid alloc] initWithFrame:back];
 	
-	/*
-	CGRect rect = CGRectMake(20, 95, 70, 70);
-	XView *x = [[XView alloc] initWithFrame:rect];
-	
-	CGRect orect = CGRectMake(125, 215, 70, 70);
-	OView *o = [[OView alloc] initWithFrame:orect];
-	
-	CGRect o2 = CGRectMake(225, 330, 70, 70);
-	XView *x2 = [[XView alloc] initWithFrame:o2];
-	*/
-	
 	[grid setBackgroundColor:[UIColor darkGrayColor]];
 	[self setView:grid];
-	/*
-	[grid addSubview:x];
-	[grid addSubview:o];
-	[grid addSubview:x2];
-	*/
 	
-
+	moveCount = 0;
 }
-
 
 
 
@@ -87,12 +56,10 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
 
 
+/*In this section, touch events and win checking will be delt with
+ */
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	
@@ -121,19 +88,20 @@
 							  100, 120);
 		 
 
-		if (lastMove == 0) {
+		if (lastMove == -1) {
 			NSLog(@"[%@ %s] tap view: %@", NSStringFromClass([self class]), _cmd, tap.view);
 			
 			XView *x = [[XView alloc] initWithFrame:tapFrame];
 			[grid addSubview:x];
             if([grid.tapView isKindOfClass:[TouchCells class]]) {								// This should always be true.
                 [((TouchCells *)grid.tapView) fill:YES];
-				[((TouchCells *)grid.tapView) setXOrY:0];
-				NSLog(@"XOrY: [%d]", [((TouchCells *)grid.tapView) xOrY]);
+				[((TouchCells *)grid.tapView) setXOrO:-1];
+				NSLog(@"xOrO: [%d]", [((TouchCells *)grid.tapView) xOrO]);
 				 
 			[x release];
 			
 			lastMove = 1;
+			moveCount++;
 			
 			}
 		}
@@ -144,23 +112,90 @@
 			[grid addSubview:o];
             if([grid.tapView isKindOfClass:[TouchCells class]])	{// This should always be true.
                 [((TouchCells *)grid.tapView) fill:YES];
-				[((TouchCells *)grid.tapView) setXOrY:1];
-				NSLog(@"XOrY: [%d]", [((TouchCells *)grid.tapView) xOrY]);
+				[((TouchCells *)grid.tapView) setXOrO:1];
+				NSLog(@"xOrO: [%d]", [((TouchCells *)grid.tapView) xOrO]);
 			[o release];
 			
-			lastMove = 0;
+			lastMove = -1;
+			moveCount++;
+
 			}
 		}
 	}
 }
 
-/*
+
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-	if () {
-		
+	
+	if ([self someoneWon]){
+		[grid setUserInteractionEnabled:NO];
+		if ([self xWon]) {
+			NSLog(@"\n\n\nX Won!!\n\n\n");
+		}
+		if ([self oWon]) {
+			NSLog(@"\n\n\nO Won!!\n\n\n");
+		}
 	}
-*/
-			
+	else if (moveCount == 9) {
+		[grid setUserInteractionEnabled:NO];
+		NSLog(@"\n\n\nDraw! (As in Tie)\n\n\n");
+	}
+}
+
+
+-(BOOL)someoneWon {
+	if ([self xWon] || [self oWon]) return YES;
+	else return NO;
+}
+	
+-(BOOL)xWon {
+	if (
+		(([grid.b00 xOrO] == -1) && ([grid.b01 xOrO] == -1) && ([grid.b02 xOrO] == -1)) ||		//Across Top
+		
+		(([grid.b10 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b12 xOrO] == -1)) ||		//Across Middle
+		
+		(([grid.b20 xOrO] == -1) && ([grid.b21 xOrO] == -1) && ([grid.b22 xOrO] == -1)) ||		//Across Bottom
+		
+		(([grid.b00 xOrO] == -1) && ([grid.b10 xOrO] == -1) && ([grid.b20 xOrO] == -1)) ||		//Down Left
+		
+		(([grid.b01 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b21 xOrO] == -1)) ||		//Down Middle
+		
+		(([grid.b02 xOrO] == -1) && ([grid.b12 xOrO] == -1) && ([grid.b22 xOrO] == -1)) ||		//Down Right
+		
+		(([grid.b00 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b22 xOrO] == -1)) ||		//Diagonal Left to Right
+		
+		(([grid.b02 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b20 xOrO] == -1))		//Diagonal Right to Left
+
+		) {
+		return YES;
+	}
+	else return NO;
+}
+
+-(BOOL)oWon {
+	if (
+		(([grid.b00 xOrO] == 1) && ([grid.b01 xOrO] == 1) && ([grid.b02 xOrO] == 1)) ||		//Across Top
+		
+		(([grid.b10 xOrO] == 1) && ([grid.b11 xOrO] == 1) && ([grid.b12 xOrO] == 1)) ||		//Across Middle
+		
+		(([grid.b20 xOrO] == 1) && ([grid.b21 xOrO] == 1) && ([grid.b22 xOrO] == 1)) ||		//Across Bottom
+		
+		(([grid.b00 xOrO] == 1) && ([grid.b10 xOrO] == 1) && ([grid.b20 xOrO] == 1)) ||		//Down Left
+
+		(([grid.b01 xOrO] == 1) && ([grid.b11 xOrO] == 1) && ([grid.b21 xOrO] == 1)) ||		//Down Middle
+		
+		(([grid.b02 xOrO] == 1) && ([grid.b12 xOrO] == 1) && ([grid.b22 xOrO] == 1)) ||		//Down Right
+		
+		(([grid.b00 xOrO] == 1) && ([grid.b11 xOrO] == 1) && ([grid.b22 xOrO] == 1)) ||		//Diagonal Left to Right
+		
+		(([grid.b02 xOrO] == 1) && ([grid.b11 xOrO] == 1) && ([grid.b20 xOrO] == 1))		//Diagonal Right to Left
+
+		) {
+		return YES;
+	}
+	else return NO;
+}
+
 
 
 

@@ -19,9 +19,7 @@
 
 @property (getter=isFilled, setter=fill)		BOOL				filled;
 
-@property										Class				contains;
-
-@property										int					xOrY;		//Either 0 (x) or 1 (y); 
+@property										int					xOrO;		//Either 0 (x) or 1 (o); 
 
 -(id)initWithCell:(CGRect)cell;
 - (id)initGrid:(UIView *)grid WithFrames:(NSArray *)frames;

@@ -1,1 +1,8 @@
 This is a TicTacToe iPhone OS App. I hope you like it :)
+
+v0.9.0: Cleaned up TicTacToeViewController.m
+	Added the xOrY property to check if a TouchCells object is filled by an XView (0) or OView (1). 
+
+v0.9.1:	-Addition of Win and Tie Checking!
+		-Uses the xOrY property and changed values to -1 and 1 because null cells triggered the 0 value and caused X to win every turn (rather repetitive).
+		-[NOTE: Winning doesn't draw a win message (yet), but prints NSLog() to console and disables further user input.]

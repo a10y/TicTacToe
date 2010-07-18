@@ -12,8 +12,7 @@
 @implementation TouchCells
 
 @synthesize		filled;
-@synthesize		xOrY;
-@synthesize		contains;
+@synthesize		xOrO;
 
 /*
 -(void)checkNeighborsForCell:(TouchCells *)tCell {
