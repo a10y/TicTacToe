@@ -15,67 +15,37 @@
 - (void)loadView {
 	NSLog(@"Loading View...");
 	
-	const CGRect back = CGRectMake(0.0, 0.0, 320.0, 480.0);		//Background frame
+	g_bd.back = CGRectMake(0.0, 0.0, 320.0, 480.0);
+	g_bd.color = [UIColor darkGrayColor];
 	
-	grid = [[Grid alloc] initWithFrame:back];
-	
-	[grid setBackgroundColor:[UIColor darkGrayColor]];
-	[self setView:grid];
+	grid = [[Grid alloc] initWithFrame:g_bd.back];				//Init the TTT Grid
+	[grid setBackgroundColor:[UIColor darkGrayColor]];		
+	[self setView:grid];									//Making grid superview in the app
 	
 	moveCount = 0;
 }
 
+-(void)resetGame {
+	[grid release];
+	grid = nil;
+	Grid * newGrid = [[Grid alloc] initWithFrame:g_bd.back];
+	[newGrid setBackgroundColor:[UIColor darkGrayColor]];
 
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-	
-	if ([self isViewLoaded]) {
-    [super viewDidLoad];
-	NSLog(@"Hello View!\n");
-	
-	}
-}
-		
-
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
+	[self setView:newGrid];
 }
 
 
-
-/*In this section, touch events and win checking will be delt with
- */
+/****************************************************************
+ ----------------------------------------------------------------
+ In this section, Touch Events and Win Checking will be delt with
+ ----------------------------------------------------------------
+ ****************************************************************/
+ 
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	
 	NSLog(@"Touch!");
 			
-			/*
-			UITouch *tapB00 = [[event touchesForView:grid.b00] anyObject];
-			UITouch *tapB01 = [[event touchesForView:grid.b01] anyObject];
-			UITouch *tapB02 = [[event touchesForView:grid.b02] anyObject];
-			UITouch *tapB10 = [[event touchesForView:grid.b10] anyObject];
-			UITouch *tapB11 = [[event touchesForView:grid.b11] anyObject];
-			UITouch *tapB12 = [[event touchesForView:grid.b12] anyObject];
-			UITouch *tapB20 = [[event touchesForView:grid.b20] anyObject];
-			UITouch *tapB21 = [[event touchesForView:grid.b21] anyObject];
-			UITouch *tapB22 = [[event touchesForView:grid.b22] anyObject];
-			 */
 	UITouch *tap = [touches anyObject];
 	grid.tapView = tap.view;
 			
@@ -128,17 +98,21 @@
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	
 	if ([self someoneWon]){
+		[self presentModalViewController:wvc animated:YES];
 		[grid setUserInteractionEnabled:NO];
 		if ([self xWon]) {
 			NSLog(@"\n\n\nX Won!!\n\n\n");
+			[self resetGame];
 		}
 		if ([self oWon]) {
 			NSLog(@"\n\n\nO Won!!\n\n\n");
+			[self resetGame];
 		}
 	}
 	else if (moveCount == 9) {
 		[grid setUserInteractionEnabled:NO];
 		NSLog(@"\n\n\nDraw! (As in Tie)\n\n\n");
+		[self resetGame];
 	}
 }
 
@@ -148,7 +122,7 @@
 	else return NO;
 }
 	
--(BOOL)xWon {
+-(BOOL)xWon {	//Checks for X																	//If...
 	if (
 		(([grid.b00 xOrO] == -1) && ([grid.b01 xOrO] == -1) && ([grid.b02 xOrO] == -1)) ||		//Across Top
 		
@@ -164,15 +138,15 @@
 		
 		(([grid.b00 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b22 xOrO] == -1)) ||		//Diagonal Left to Right
 		
-		(([grid.b02 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b20 xOrO] == -1))		//Diagonal Right to Left
+		(([grid.b02 xOrO] == -1) && ([grid.b11 xOrO] == -1) && ([grid.b20 xOrO] == -1))			//Diagonal Right to Left
 
 		) {
-		return YES;
+		return YES;																				//Then X Won
 	}
-	else return NO;
+	else return NO;																				//Else it didn't win (yet) 
 }
 
--(BOOL)oWon {
+-(BOOL)oWon {	//Checks for O																//If...
 	if (
 		(([grid.b00 xOrO] == 1) && ([grid.b01 xOrO] == 1) && ([grid.b02 xOrO] == 1)) ||		//Across Top
 		
@@ -191,9 +165,9 @@
 		(([grid.b02 xOrO] == 1) && ([grid.b11 xOrO] == 1) && ([grid.b20 xOrO] == 1))		//Diagonal Right to Left
 
 		) {
-		return YES;
+		return YES;																			//Then O Won
 	}
-	else return NO;
+	else return NO;																			//Else it didn't win (yet)
 }
 
 

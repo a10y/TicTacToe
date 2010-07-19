@@ -23,31 +23,42 @@
 @synthesize b21;
 @synthesize b22;
 
-
-
 /*
-@synthesize tl;
-@synthesize tm;
-@synthesize tr;
-@synthesize ml;
-@synthesize mm;
-@synthesize mr;
-@synthesize bl;
-@synthesize bm;
-@synthesize br;
-*/
+-(id)resetBoard {
+	/*
+	[self.b00 removeFromSuperview];
+	[self.b01 removeFromSuperview];
+	[self.b02 removeFromSuperview];
+	[self.b10 removeFromSuperview];
+	[self.b11 removeFromSuperview];
+	[self.b12 removeFromSuperview];
+	[self.b20 removeFromSuperview];
+	[self.b21 removeFromSuperview];
+	[self.b22 removeFromSuperview];
+	/
 
-/*
--(void)cellContains:(Class) xoroView {
-	if ([xoroView isEqual:XView]){
-		[self.tapView setContains:[XView class]];
-	}
-	else if ([xoroView isEqual:OView]) {
-		[self.tapView setContains:[OView class]];
-	}
+	[self.b00 fill:NO];
+	[self.b01 fill:NO];
+	[self.b02 fill:NO];
+	[self.b10 fill:NO];
+	[self.b11 fill:NO];
+	[self.b12 fill:NO];
+	[self.b20 fill:NO];
+	[self.b21 fill:NO];
+	[self.b22 fill:NO];
+	
+	[self.b00 setXOrO:0];
+	[self.b01 setXOrO:0];
+	[self.b02 setXOrO:0];
+	[self.b10 setXOrO:0];
+	[self.b11 setXOrO:0];
+	[self.b12 setXOrO:0];
+	[self.b20 setXOrO:0];
+	[self.b21 setXOrO:0];
+	[self.b22 setXOrO:0];
+	
 }
-*/
-
+*/	
 
 - (id)initWithFrame:(CGRect)frame {
 	

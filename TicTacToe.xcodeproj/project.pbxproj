@@ -20,6 +20,8 @@
 		AC4E283D11E3BE2A008486E6 /* OView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E283C11E3BE2A008486E6 /* OView.m */; };
 		AC5BC83911ED66ED00BA1DCF /* TouchCells.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC83811ED66ED00BA1DCF /* TouchCells.m */; };
 		AC5BCAAA11EEA3D500BA1DCF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5BCAA911EEA3D500BA1DCF /* Constants.m */; };
+		ACA8AEE911F402CE004C4600 /* WinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA8AEE811F402CE004C4600 /* WinViewController.m */; };
+		ACA8AEEF11F4057D004C4600 /* WinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA8AEEE11F4057D004C4600 /* WinViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,9 @@
 		AC5BC83711ED66ED00BA1DCF /* TouchCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchCells.h; sourceTree = "<group>"; };
 		AC5BC83811ED66ED00BA1DCF /* TouchCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchCells.m; sourceTree = "<group>"; };
 		AC5BCAA911EEA3D500BA1DCF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		ACA8AEE711F402CE004C4600 /* WinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinViewController.h; sourceTree = "<group>"; };
+		ACA8AEE811F402CE004C4600 /* WinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinViewController.m; sourceTree = "<group>"; };
+		ACA8AEEE11F4057D004C4600 /* WinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,8 @@
 				AC5BCAA911EEA3D500BA1DCF /* Constants.m */,
 				AC4303DD11E65075006AD5C6 /* Constants.h */,
 				1D3623240D0F684500981E51 /* TicTacToeAppDelegate.h */,
+				ACA8AEE711F402CE004C4600 /* WinViewController.h */,
+				ACA8AEE811F402CE004C4600 /* WinViewController.m */,
 				1D3623250D0F684500981E51 /* TicTacToeAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* TicTacToeViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* TicTacToeViewController.m */,
@@ -99,6 +106,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				ACA8AEEE11F4057D004C4600 /* WinViewController.xib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* TicTacToeViewController.xib in Resources */,
+				ACA8AEEF11F4057D004C4600 /* WinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +203,7 @@
 				AC4302FC11E52322006AD5C6 /* Grid.m in Sources */,
 				AC5BC83911ED66ED00BA1DCF /* TouchCells.m in Sources */,
 				AC5BCAAA11EEA3D500BA1DCF /* Constants.m in Sources */,
+				ACA8AEE911F402CE004C4600 /* WinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

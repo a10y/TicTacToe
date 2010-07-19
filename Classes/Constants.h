@@ -35,8 +35,9 @@ extern const float		WIDTH			;
 extern const float		LEFT_RECT_X		;			
 extern const float		LEFT_RECT_Y		;			
 extern const float		RIGHT_RECT_X	;					//LEFT_RECT_X + WIDTH + RECT_WIDTH
-extern const float		RIGHT_RECT_Y	;						//LEFT_RECT_Y
+extern const float		RIGHT_RECT_Y	;					//LEFT_RECT_Y
 extern const float		TOP_RECT_X		;						
 extern const float		TOP_RECT_Y		;			
-extern const float		BOTTOM_RECT_X	;						//Same as TOP_RECT_X
+extern const float		BOTTOM_RECT_X	;					//Same as TOP_RECT_X
 extern const float		BOTTOM_RECT_Y	;					//BOTTOM_RECT_Y + HEIGHT + RECT_WIDTH
+
