@@ -1,0 +1,5 @@
+# Git Ignores these in its commits
+build
+*.pbxuser
+*.perspectivev3
+*.modelv3
