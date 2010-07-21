@@ -14,24 +14,25 @@
 
 - (void)loadView {
 	NSLog(@"Loading View...");
-	
+		
 	g_bd.back = CGRectMake(0.0, 0.0, 320.0, 480.0);
 	g_bd.color = [UIColor darkGrayColor];
 	
 	grid = [[Grid alloc] initWithFrame:g_bd.back];				//Init the TTT Grid
-	[grid setBackgroundColor:[UIColor darkGrayColor]];		
+	[grid setBackgroundColor:g_bd.color];		
 	[self setView:grid];									//Making grid superview in the app
 	
-	moveCount = 0;
+	grid.moveCount = 0;
 }
 
 -(void)resetGame {
 	[grid release];
-	grid = nil;
-	Grid * newGrid = [[Grid alloc] initWithFrame:g_bd.back];
-	[newGrid setBackgroundColor:[UIColor darkGrayColor]];
+	
+	grid = [[Grid alloc] initWithFrame:g_bd.back];
+	[grid setBackgroundColor:g_bd.color];
 
-	[self setView:newGrid];
+	[self setView:grid];
+	grid.moveCount = 0;
 }
 
 
@@ -71,7 +72,7 @@
 			[x release];
 			
 			lastMove = 1;
-			moveCount++;
+			grid.moveCount++;
 			
 			}
 		}
@@ -87,7 +88,7 @@
 			[o release];
 			
 			lastMove = -1;
-			moveCount++;
+			grid.moveCount++;
 
 			}
 		}
@@ -98,7 +99,6 @@
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	
 	if ([self someoneWon]){
-		[self presentModalViewController:wvc animated:YES];
 		[grid setUserInteractionEnabled:NO];
 		if ([self xWon]) {
 			NSLog(@"\n\n\nX Won!!\n\n\n");
@@ -109,7 +109,7 @@
 			[self resetGame];
 		}
 	}
-	else if (moveCount == 9) {
+	else if (grid.moveCount == 9) {
 		[grid setUserInteractionEnabled:NO];
 		NSLog(@"\n\n\nDraw! (As in Tie)\n\n\n");
 		[self resetGame];

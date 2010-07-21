@@ -17,14 +17,11 @@ typedef struct _Grid_BG {
 	UIColor *color;
 } Grid_BG;
 
+
 @interface TicTacToeViewController : UIViewController {
 
 	Grid *grid;
 	int lastMove; //variable used to change turn. -1 = x, 1 = o;
-	int moveCount;
-	
-	WinViewController *wvc;
-	
 	Grid_BG g_bd;
 
 }

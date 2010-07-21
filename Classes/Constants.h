@@ -41,3 +41,6 @@ extern const float		TOP_RECT_Y		;
 extern const float		BOTTOM_RECT_X	;					//Same as TOP_RECT_X
 extern const float		BOTTOM_RECT_Y	;					//BOTTOM_RECT_Y + HEIGHT + RECT_WIDTH
 
+
+
+

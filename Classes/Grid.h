@@ -14,7 +14,7 @@
 	
 			
 }
-
+@property (readwrite, assign)	int			moveCount;
 @property (readwrite, assign)	UIView		*tapView;
 
 @property (readwrite, assign)	TouchCells		*b00;
@@ -27,6 +27,5 @@
 @property (readwrite, assign)	TouchCells		*b21;
 @property (readwrite, assign)	TouchCells		*b22;
 
-//-(void)resetBoard;
 
 @end

@@ -106,7 +106,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				ACA8AEEE11F4057D004C4600 /* WinViewController.xib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -126,6 +125,7 @@
 				2899E5210DE3E06400AC0155 /* TicTacToeViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TicTacToe-Info.plist */,
+				ACA8AEEE11F4057D004C4600 /* WinViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
