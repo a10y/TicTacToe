@@ -79,35 +79,8 @@
 										 BOTTOM_RECT_Y + RECT_WIDTH,
 										 WIDTH,
 										 HEIGHT);
-		/*
-		tl = [[TouchCells alloc] initWithCell:topLeft];
-		[self addSubview:tl];
+	
 		
-		tm = [[TouchCells alloc] initWithCell:topMiddle];
-		[self addSubview:tm];
-		
-		tr = [[TouchCells alloc] initWithCell:topRight];
-		[self addSubview:tr];
-		
-		ml = [[TouchCells alloc] initWithCell:middleLeft];
-		[self addSubview:ml];
-		
-		mm = [[TouchCells alloc] initWithCell:middleMiddle];
-		[self addSubview:mm];
-		
-		mr = [[TouchCells alloc] initWithCell:middleRight];
-		[self addSubview:mr];
-		
-		bl = [[TouchCells alloc] initWithCell:bottomLeft];
-		[self addSubview:bl];
-		
-		bm = [[TouchCells alloc] initWithCell:bottomMiddle];
-		[self addSubview:bm];
-		
-		br = [[TouchCells alloc] initWithCell:bottomRight];
-		[self addSubview:br];
-		*/
-								        
 		
 		//Add invisible views to detect touch in cells.
 		//NOTE: Cells are notated as "b"ij, in which
@@ -189,9 +162,7 @@
 	UIView *line4 = [[UIView alloc] initWithFrame:bottomLine];
 	[line4 setBackgroundColor:[UIColor whiteColor]];
 	
-	
-	
-	
+		
 	[self addSubview:line1];
 	[self addSubview:line2];
 	[self addSubview:line3];
@@ -202,8 +173,6 @@
 
 
 - (void)dealloc {
-	
-	
 	
     [super dealloc];
 }

@@ -8,14 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "TicTacToeViewController.h"
-
+#import "SettingsViewController.h"
 
 
 @class TicTacToeViewController;
 
 @interface TicTacToeAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    TicTacToeViewController *viewController;
+    SettingsViewController  *sViewController;
+	TicTacToeViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

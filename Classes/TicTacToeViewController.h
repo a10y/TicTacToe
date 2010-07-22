@@ -10,12 +10,18 @@
 #import "XView.h"
 #import "OView.h"
 #import "Grid.h"
-#import "WinViewController.h"
+#import "TicTacToeAppDelegate.h"
 
 typedef struct _Grid_BG {
 	CGRect back ;
 	UIColor *color;
 } Grid_BG;
+
+typedef enum _turn {
+	X_TURN= 1,
+	O_TURN
+} turn;
+
 
 
 @interface TicTacToeViewController : UIViewController {
@@ -23,7 +29,8 @@ typedef struct _Grid_BG {
 	Grid *grid;
 	int lastMove; //variable used to change turn. -1 = x, 1 = o;
 	Grid_BG g_bd;
-
+	BOOL firstTime;
+	turn nextTurn;
 }
 
 
@@ -31,7 +38,7 @@ typedef struct _Grid_BG {
 
 -(BOOL)xWon;
 -(BOOL)oWon;
--(BOOL)someoneWon;
+-(BOOL)gameOver;
 -(void)resetGame;
 
 @end

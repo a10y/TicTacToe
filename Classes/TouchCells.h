@@ -12,6 +12,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum _xOrO {
+	X = 1,
+	O
+} xOrO;
+
 
 @interface TouchCells : UIView {
 	
@@ -19,7 +24,7 @@
 
 @property (getter=isFilled, setter=fill)		BOOL				filled;
 
-@property										int					xOrO;		//Either 0 (x) or 1 (o); 
+@property										xOrO				filler;		//Either 0 (x) or 1 (o); 
 
 -(id)initWithCell:(CGRect)cell;
 - (id)initGrid:(UIView *)grid WithFrames:(NSArray *)frames;
