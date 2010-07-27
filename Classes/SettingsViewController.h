@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TicTacToeViewController.h"
 
 typedef struct _Scroll_Attrib {
 	CGRect frame;
@@ -14,6 +15,7 @@ typedef struct _Scroll_Attrib {
 
 @interface SettingsViewController : UIViewController {
 	Scroll_Attribs colorPickerAttribs;
+	TicTacToeViewController *tttvc;
 }
-
+-(void)startGame;
 @end

@@ -10,9 +10,14 @@
 #import "TouchCells.h"
 
 
+typedef struct _Grid_BG {
+	CGRect back ;
+	UIColor *color;
+} Grid_BG;
+
+
 @interface Grid : UIView {
-	
-			
+				
 }
 @property (readwrite, assign)	int			moveCount;
 @property (readwrite, assign)	UIView		*tapView;

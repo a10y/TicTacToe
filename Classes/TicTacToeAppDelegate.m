@@ -12,6 +12,7 @@
 @implementation TicTacToeAppDelegate
 
 @synthesize window;
+@synthesize sViewController;
 @synthesize viewController;
 
 
@@ -23,6 +24,7 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
+	
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
 

@@ -34,7 +34,7 @@
 -(void)resetGame {
 	firstTime = YES;
 	nextTurn = X_TURN;
-	[grid autorelease];
+	[grid release];
 	
 	grid = [[Grid alloc] initWithFrame:g_bd.back];
 	[grid setBackgroundColor:g_bd.color];
@@ -164,6 +164,9 @@
 		[winLabel setFont:[UIFont systemFontOfSize:36.0]];
 		[winLabel setTextColor:[UIColor whiteColor]];
 
+		CGPoint point = CGPointMake(playAgain.center.x, playAgain.center.y - 40.0);
+		
+		
 		[popup addSubview:winLabel];
 		[popup addSubview:playAgain];
 		
@@ -171,14 +174,25 @@
 				
 		
 		if ([self xWon]) {
-			[winLabel setText:@"X Wins!"]; 
+			[winLabel setText:@"X Wins!"];
+			[winLabel sizeToFit];
+			[winLabel setCenter:point];
 		}
 		else if ([self oWon]) {
 			[winLabel setText:@"O Wins!"];
+			[winLabel sizeToFit];
+			[winLabel setCenter:point];
 		}
 	
-		else [winLabel setText:@"Draw!"];
+		else {
+			[winLabel setText:@"Draw!"];
+			[winLabel sizeToFit];
+			[winLabel setCenter:point];
+		}
 		
+		[winLabel release];
+		[playAgain release];
+		[popup release];
 	}
 }
 

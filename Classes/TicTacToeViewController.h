@@ -10,12 +10,7 @@
 #import "XView.h"
 #import "OView.h"
 #import "Grid.h"
-#import "TicTacToeAppDelegate.h"
 
-typedef struct _Grid_BG {
-	CGRect back ;
-	UIColor *color;
-} Grid_BG;
 
 typedef enum _turn {
 	X_TURN= 1,
