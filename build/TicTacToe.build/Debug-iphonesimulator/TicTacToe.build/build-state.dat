@@ -1,13 +1,14 @@
 TTicTacToe
 v7
 r0
-t301883596.584646
+t302068203.418865
 cCheck dependencies
 cProcessInfoPlistFile /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
 cCompileXIB /Users/dwebb/Documents/TicTacToe/MainWindow.xib
 cCompileXIB /Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib
 cCompileXIB /Users/dwebb/Documents/TicTacToe/WinViewController.xib
 cProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch.pth TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
 cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o /Users/dwebb/Documents/TicTacToe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -17,8 +18,17 @@ cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-no
 cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o /Users/dwebb/Documents/TicTacToe/Classes/Constants.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cAnalyze /Users/dwebb/Documents/TicTacToe/main.m
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/Constants.m
 cLd /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe normal i386
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m
 cGenerateDSYMFile /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/XView.m
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/OView.m
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/Grid.m
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m
+cAnalyze /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m
 cTouch /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
@@ -99,31 +109,33 @@ s767
 i"OView.h"
 
 N/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h
-c000000004C4D1EDB00000000000001B2
-t1280122587
-s434
+c000000004C50F7B800000000000001C4
+t1280374712
+s452
 i<UIKit/UIKit.h>
 i"TicTacToeViewController.h"
+i"Grid.h"
 
 N/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m
-c000000004C4E292500000000000007F4
-t1280190757
-s2036
+c000000004C50FA6900000000000005AA
+t1280375401
+s1450
 i"SettingsViewController.h"
+i"TicTacToeAppDelegate.h"
 i<QuartzCore/QuartzCore.h>
 
 N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h
-c000000004C4E283200000000000002B4
-t1280190514
-s692
+c000000004C4F6B2D00000000000002AF
+t1280273197
+s687
 i<UIKit/UIKit.h>
 i"TicTacToeViewController.h"
 i"SettingsViewController.h"
 
 N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m
-c000000004C4E29490000000000000B36
-t1280190793
-s2870
+c000000004C50F80B0000000000000C4B
+t1280374795
+s3147
 i"TicTacToeAppDelegate.h"
 
 N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h
@@ -136,9 +148,9 @@ i"OView.h"
 i"Grid.h"
 
 N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m
-c000000004C4D29F70000000000001DB5
-t1280125431
-s7605
+c000000004C4F61F70000000000001E9A
+t1280270839
+s7834
 i"TicTacToeViewController.h"
 i"Constants.h"
 i<QuartzCore/QuartzCore.h>
@@ -190,11 +202,11 @@ t1280113040
 s18840
 
 N/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-t1280190794
+t1280375403
 s272
 
 N/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM
-t1280190794
+t1280375403
 s102
 
 N/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist
@@ -210,8 +222,8 @@ t1280113040
 s8
 
 N/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-t1280190794
-s49964
+t1280375402
+s54136
 
 N/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToeViewController.nib
 t1280113040
@@ -234,8 +246,8 @@ t1280117832
 s37024
 
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o
-t1280190757
-s41448
+t1280375402
+s44888
 
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList
 c000000004C4D0C3B000000000000047A
@@ -243,12 +255,12 @@ t1280117819
 s1146
 
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
-t1280190794
-s49864
+t1280374808
+s51032
 
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o
-t1280190757
-s64072
+t1280270842
+s67432
 
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o
 t1280117832
@@ -261,6 +273,42 @@ s37208
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
 t1280117832
 s6292
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Constants.plist
+t1280269467
+s276
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Grid.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/OView.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/SettingsViewController.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeAppDelegate.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeViewController.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TouchCells.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/XView.plist
+t2
+s0
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/main.plist
+t1280269467
+s276
 
 N/Users/dwebb/Documents/TicTacToe/main.m
 c000000004C4CF9900000000000000171
@@ -635,6 +683,10 @@ N/var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/Shared
 t1280117831
 s15232016
 
+N/var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch.pth
+t1280269466
+s2690400
+
 NTicTacToe-Info.plist
 c000000004C4CF990000000000000038D
 t1280113040
@@ -657,6 +709,169 @@ o/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warn
 o/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warning: will be assumed to return 'id' and accept
 o/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warning: '...' as arguments.)
 lSLF07#2@77"Compile /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m300497832#300497832#0(624"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m: In function '-[TicTacToeViewController touchesBegan:withEvent:]':/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warning: 'UITouch' may not respond to '-isInView:'/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warning: (Messages without a matching method signature/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warning: will be assumed to return 'id' and accept/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m:107: warning: '...' as arguments.)2(22@41"'UITouch' may not respond to '-isInView:'300497832#137#126#0(6@69"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m300497788#107#0#107#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)300497832#263#130#0(6@69"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m300497788#107#0#107#0#0"0(0#0#69"/Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m7307466864044827648#1954"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -S /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.s0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/Constants.m
+s301962267.524652
+e301962267.583297
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/Constants.m
+lSLF07#2@60"Analyze /Users/dwebb/Documents/TicTacToe/Classes/Constants.m301962267#301962267#0(0"0(0#0#52"/Users/dwebb/Documents/TicTacToe/Classes/Constants.m8619083072#1902"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/Constants.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Constants.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/Grid.m
+s302068203.245647
+e302068203.293112
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/Grid.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':'
+o @property (getter=isFilled, setter=fill)                BOOL                            filled;
+o                                        ^
+o                                        :
+o1 error generated.
+lSLF07#2@55"Analyze /Users/dwebb/Documents/TicTacToe/Classes/Grid.m302068203#302068203#0(485"In file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':' @property (getter=isFilled, setter=fill)                BOOL                            filled;                                        ^                                        :1 error generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#1(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#25#0#25#0#0"0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#0#0#0#0#0"0(0#0#47"/Users/dwebb/Documents/TicTacToe/Classes/Grid.m8626993216#1892"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/Grid.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Grid.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/OView.m
+s302068203.199182
+e302068203.245547
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/OView.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/OView.m:9:
+o/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)  BOOL    hasWon;
+o                      ^
+o                      :
+o1 error generated.
+lSLF07#2@56"Analyze /Users/dwebb/Documents/TicTacToe/Classes/OView.m302068203#302068203#0(315"In file included from /Users/dwebb/Documents/TicTacToe/Classes/OView.m:9:/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)  BOOL    hasWon;                      ^                      :1 error generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#1(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/OView.h301805840#16#0#16#0#0"0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/OView.h301805840#0#0#0#0#0"0(0#0#48"/Users/dwebb/Documents/TicTacToe/Classes/OView.m8634762304#1894"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/OView.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/OView.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m
+s302068203.356872
+e302068203.415232
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:8:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h:10:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)          BOOL    hasWon;
+o                      ^
+o                      :
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:8:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h:10:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:11:
+o/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)  BOOL    hasWon;
+o                      ^
+o                      :
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:8:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h:10:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:12:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':'
+o @property (getter=isFilled, setter=fill)                BOOL                            filled;
+o                                        ^
+o                                        :
+o3 errors generated.
+lSLF07#2@73"Analyze /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m302068203#302068203#0(1693"In file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:8:In file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h:10:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:10:/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)          BOOL    hasWon;                      ^                      :In file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:8:In file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h:10:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:11:/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)  BOOL    hasWon;                      ^                      :In file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:8:In file included from /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h:10:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:12:In file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':' @property (getter=isFilled, setter=fill)                BOOL                            filled;                                        ^                                        :3 errors generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#3(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#15#0#15#0#0"0(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/OView.h301805840#16#0#16#0#0"0(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#25#0#25#0#0"0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#0#0#0#0#0"0(0#0#65"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m8634143232#1928"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/SettingsViewController.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m
+s302068202.986650
+e302068203.075826
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h:10:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)          BOOL    hasWon;
+o                      ^
+o                      :
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h:10:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:11:
+o/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)  BOOL    hasWon;
+o                      ^
+o                      :
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h:10:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:12:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':'
+o @property (getter=isFilled, setter=fill)                BOOL                            filled;
+o                                        ^
+o                                        :
+o3 errors generated.
+lSLF07#2@71"Analyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m302068202#302068203#0(1681"In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h:10:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:10:/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)          BOOL    hasWon;                      ^                      :In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h:10:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:11:/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)  BOOL    hasWon;                      ^                      :In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h:10:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:12:In file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':' @property (getter=isFilled, setter=fill)                BOOL                            filled;                                        ^                                        :3 errors generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#3(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#15#0#15#0#0"0(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/OView.h301805840#16#0#16#0#0"0(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#25#0#25#0#0"0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#0#0#0#0#0"0(0#0#63"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m8635250304#1924"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeAppDelegate.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m
+s302068203.076165
+e302068203.149159
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)          BOOL    hasWon;
+o                      ^
+o                      :
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:11:
+o/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)  BOOL    hasWon;
+o                      ^
+o                      :
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:12:
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:
+o/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':'
+o @property (getter=isFilled, setter=fill)                BOOL                            filled;
+o                                        ^
+o                                        :
+o3 errors generated.
+lSLF07#2@74"Analyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m302068203#302068203#0(1420"In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:10:/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)          BOOL    hasWon;                      ^                      :In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:11:/Users/dwebb/Documents/TicTacToe/Classes/OView.h:16:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)  BOOL    hasWon;                      ^                      :In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:12:In file included from /Users/dwebb/Documents/TicTacToe/Classes/Grid.h:10:/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':' @property (getter=isFilled, setter=fill)                BOOL                            filled;                                        ^                                        :3 errors generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#3(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#15#0#15#0#0"0(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/OView.h301805840#16#0#16#0#0"0(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#25#0#25#0#0"0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#0#0#0#0#0"0(0#0#66"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m8634242848#1930"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeViewController.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m
+s302068203.293212
+e302068203.356762
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m:9:
+o/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':'
+o @property (getter=isFilled, setter=fill)                BOOL                            filled;
+o                                        ^
+o                                        :
+o1 error generated.
+lSLF07#2@61"Analyze /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m302068203#302068203#0(417"In file included from /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m:9:/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h:25:40: error: method name referenced in property setter attribute must end with ':' @property (getter=isFilled, setter=fill)                BOOL                            filled;                                        ^                                        :1 error generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#1(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#25#0#25#0#0"0(6@53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h301805840#0#0#0#0#0"0(0#0#53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m8625788928#1904"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TouchCells.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/Classes/XView.m
+s302068203.149261
+e302068203.199072
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/Classes/XView.m
+oIn file included from /Users/dwebb/Documents/TicTacToe/Classes/XView.m:9:
+o/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':'
+o @property (setter=win)          BOOL    hasWon;
+o                      ^
+o                      :
+o1 error generated.
+lSLF07#2@56"Analyze /Users/dwebb/Documents/TicTacToe/Classes/XView.m302068203#302068203#0(323"In file included from /Users/dwebb/Documents/TicTacToe/Classes/XView.m:9:/Users/dwebb/Documents/TicTacToe/Classes/XView.h:15:22: error: method name referenced in property setter attribute must end with ':' @property (setter=win)          BOOL    hasWon;                      ^                      :1 error generated.1(25@46"Analyzer skipped this file due to parse errors302068203#18446744073709551615#0#1(25@69"method name referenced in property setter attribute must end with ':'302068203#18446744073709551615#0#0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#15#0#15#0#0"0(6@48"/Users/dwebb/Documents/TicTacToe/Classes/XView.h301805840#0#0#0#0#0"0(0#0#48"/Users/dwebb/Documents/TicTacToe/Classes/XView.m8638010144#1894"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/Classes/XView.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/XView.plist0#
+
+CAnalyze /Users/dwebb/Documents/TicTacToe/main.m
+s301962267.001657
+e301962267.169964
+r1
+xAnalyze
+x/Users/dwebb/Documents/TicTacToe/main.m
+lSLF07#2@47"Analyze /Users/dwebb/Documents/TicTacToe/main.m301962267#301962267#0(0"0(0#0#39"/Users/dwebb/Documents/TicTacToe/main.m8615732192#1884"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch --analyze /Users/dwebb/Documents/TicTacToe/main.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/main.plist0#
 
 CAnalyze /Users/mamabear/Documents/TicTacToe/Classes/Constants.m
 s301517196.468207
@@ -812,7 +1027,7 @@ lSLF07#2@50"Analyze /Users/mamabear/Documents/TicTacToe/main.m301517195#30151719
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies301883596#301883596#0(0"0(0#1#0"8602910976#0"0#
+lSLF07#2@18"Check dependencies302068202#302068202#0(0"0(0#1#0"8635432960#0"0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/BoardCells.o /Users/mamabear/Documents/TicTacToe/Classes/BoardCells.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -896,8 +1111,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/mamabear/Documents/TicTacToe/Classes/OView.m301127399#301127399#0(0"0(0#0#51"/Users/mamabear/Documents/TicTacToe/Classes/OView.m8601524992#1918"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/OView.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301883557.847840
-e301883557.940378
+s302068202.603818
+e302068202.809568
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o
@@ -906,7 +1121,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m301883557#301883557#0(0"0(0#0#65"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m8627272608#1919"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o0#
+lSLF07#2@73"Compile /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m302068202#302068202#0(0"0(0#0#65"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m8634274976#1919"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o /Users/mamabear/Documents/TicTacToe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301520153.150386
@@ -922,8 +1137,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/mamabear/Documents/TicTacToe/Classes/SettingsViewController.m301520153#301520153#0(0"0(0#0#68"/Users/mamabear/Documents/TicTacToe/Classes/SettingsViewController.m8634886080#1952"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/Classes/SettingsViewController.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301883594.612835
-e301883594.778064
+s302067607.910283
+e302067608.116589
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
@@ -932,7 +1147,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m301883594#301883594#0(0"0(0#0#63"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m8626239232#1915"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o0#
+lSLF07#2@71"Compile /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m302067607#302067608#0(0"0(0#0#63"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m8626629984#1915"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301522101.951559
@@ -987,8 +1202,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@64"Compile /Users/mamabear/Documents/TicTacToe/TicTacToeGridModel.m299832812#299832812#0(0"0(0#0#56"/Users/mamabear/Documents/TicTacToe/TicTacToeGridModel.m8633445856#1936"    cd /Users/mamabear/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Dr/Dr1mwFuvFCCnZZ+gHGZrV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-aphvatyvwofdqfbapzlszbjlakxc/TicTacToe_Prefix.pch -c /Users/mamabear/Documents/TicTacToe/TicTacToeGridModel.m -o /Users/mamabear/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeGridModel.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301883557.555471
-e301883557.711691
+s301963642.512824
+e301963642.828399
 r1
 xCompileC
 xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o
@@ -997,7 +1212,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m301883557#301883557#0(0"0(0#0#66"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m8628783520#1921"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o0#
+lSLF07#2@74"Compile /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m301963642#301963642#0(0"0(0#0#66"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m8625962848#1921"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o0#
 
 CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o /Users/mamabear/Documents/TicTacToe/Classes/TicTacToeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301522842.600956
@@ -1153,13 +1368,13 @@ CCompileXIB /Users/mamabear/Documents/TicTacToe/WinViewController.xib.xib
 r0
 
 CGenerateDSYMFile /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-s301883594.812980
-e301883594.845949
+s302068202.987726
+e302068203.102339
 r1
 xGenerateDSYMFile
 x/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM
 x/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TicTacToe.app.dSYM build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301883594#301883594#0(0"0(0#0#84"/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe8627974592#371"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TicTacToe.app.dSYM build/Debug-iphonesimulator/TicTacToe.app/TicTacToe302068202#302068203#0(0"0(0#0#84"/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe8633862816#371"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM0#
 
 CGenerateDSYMFile /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
 s301522842.893296
@@ -1171,14 +1386,14 @@ x/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/T
 lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TicTacToe.app.dSYM build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301522842#301522843#0(0"0(0#0#87"/Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe8634169216#380"    cd /Users/mamabear/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM0#
 
 CLd /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe normal i386
-s301883594.778174
-e301883594.812850
+s302068202.809679
+e302068202.986518
 r1
 xLd
 x/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
 xnormal
 xi386
-lSLF07#2@89"Link /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe301883594#301883594#0(0"0(0#0#0"8631784864#880"    cd /Users/dwebb/Documents/TicTacToe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -filelist /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe0#
+lSLF07#2@89"Link /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe302068202#302068202#0(0"0(0#0#0"8635771552#880"    cd /Users/dwebb/Documents/TicTacToe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -filelist /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe0#
 
 CLd /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe normal i386
 s301522842.830309
@@ -1241,13 +1456,26 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile TicTacToe_Prefix.pch301810628#301810632#0(0"0(0#0#53"/Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch8590403392#1771"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -c /Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-czwsrvgchesxbpflfecnqtqloxbj/TicTacToe_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch.pth TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s301962265.417055
+e301962267.000615
+r1
+xProcessPCH
+x/var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch.pth
+xTicTacToe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@31"Precompile TicTacToe_Prefix.pch301962265#301962267#0(0"0(0#0#53"/Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch8615157472#1762"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -c /Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ghxnsjpncbbdrpbhpzljpiarreev/TicTacToe_Prefix.pch.pth0#
+
 CTouch /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-s301883594.846052
-e301883594.849186
+s302068203.415333
+e302068203.418821
 r1
 xTouch
 x/Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-lSLF07#2@80"Touch /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app301883594#301883594#0(0"0(0#0#0"8627810944#268"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
+lSLF07#2@80"Touch /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app302068203#302068203#0(0"0(0#0#0"8633200608#268"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dwebb/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
 
 CTouch /Users/mamabear/Documents/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
 s301522843.087024

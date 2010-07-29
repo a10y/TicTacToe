@@ -20,7 +20,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet SettingsViewController *sViewController;
+@property (nonatomic, retain) IBOutlet SettingsViewController *SettingsVC;
 @property (nonatomic, retain) IBOutlet TicTacToeViewController *viewController;
 
 @end

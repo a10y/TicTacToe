@@ -12,7 +12,7 @@
 @implementation TicTacToeAppDelegate
 
 @synthesize window;
-@synthesize sViewController;
+@synthesize SettingsVC;
 @synthesize viewController;
 
 
@@ -22,17 +22,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
     // Add the view controller's view to the window and display.
+	SettingsVC = [[SettingsViewController alloc] init];
 	
-    [window addSubview:viewController.view];
-    [window makeKeyAndVisible];
+    //[window addSubview:viewController.view];
+    [window addSubview:SettingsVC.view];
+	[window makeKeyAndVisible];
 
     return YES;
 }
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
+
     /*
      Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
      Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
@@ -41,6 +44,7 @@
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
+	//[application setStatusBarStyle:UIStatusBarStyleDefault];
     /*
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
@@ -56,6 +60,7 @@
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
@@ -83,7 +88,7 @@
 //Override dealloc, then call [super dealloc]
 - (void)dealloc {
     [viewController release];
-	[sViewController release];
+	[SettingsVC release];
     [window release];
 	viewController = nil;
 	sViewController = nil;

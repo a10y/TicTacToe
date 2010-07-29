@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "TicTacToeViewController.h"
+#import "Grid.h"
+
 
 typedef struct _Scroll_Attrib {
 	CGRect frame;

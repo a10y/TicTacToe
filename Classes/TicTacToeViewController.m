@@ -15,6 +15,13 @@
 
 
 - (void)loadView {
+	
+		
+	UIAlertView *alert = [[UIAlertView alloc] 
+						  initWithTitle:@"Welcome" message:@"Welcome to TicTacToe, let's get started!" 
+						  delegate:nil cancelButtonTitle:@"Start Game" otherButtonTitles:nil];
+	[alert show];
+	
 	NSLog(@"Loading View...");
 	firstTime = YES;
 		
