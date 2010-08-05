@@ -2,7 +2,7 @@
 //  TicTacToeViewController.m
 //  TicTacToe
 //
-//  Created by Caryn Gerber-Duffy on 6/30/10.
+//  Created by David Webb on 6/30/10.
 //  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
 
@@ -22,7 +22,6 @@
 						  delegate:nil cancelButtonTitle:@"Start Game" otherButtonTitles:nil];
 	[alert show];
 	
-	NSLog(@"Loading View...");
 	firstTime = YES;
 		
 	g_bd.back = CGRectMake(0.0, 0.0, 320.0, 480.0);
@@ -159,8 +158,9 @@
 		[popup setAlpha:0.8];
 		
 		UIButton *playAgain = [[UIButton alloc] initWithFrame:buttonFrame];
-		playAgain.layer.cornerRadius = 4.0;
+		//UIButton *playAgain = [[UIButton alloc] initWithFrame:buttonFrame];
 		[playAgain setTitle:@"Play Again" forState:UIControlStateNormal];
+		playAgain.layer.cornerRadius = 3.0;
 		[playAgain setBackgroundColor:[UIColor greenColor]];
 		
 		

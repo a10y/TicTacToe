@@ -2,7 +2,7 @@
 //  BoardCells.h
 //  TicTacToe
 //
-//  Created by Caryn Gerber-Duffy on 7/13/10.
+//  Created by David Webb on 7/13/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 /****************************

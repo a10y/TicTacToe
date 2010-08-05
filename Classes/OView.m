@@ -2,7 +2,7 @@
 //  OView.m
 //  TicTacToe
 //
-//  Created by Caryn Gerber-Duffy on 7/6/10.
+//  Created by David Webb on 7/6/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 

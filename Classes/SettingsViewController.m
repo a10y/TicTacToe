@@ -2,7 +2,7 @@
 //  SettingsViewController.m
 //  TicTacToe
 //
-//  Created by Caryn Gerber-Duffy on 7/22/10.
+//  Created by David Webb on 7/22/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 #import "SettingsViewController.h"
@@ -12,7 +12,8 @@
 
 @implementation SettingsViewController
 
-- (void)loadView {
+-(void)loadView {
+	[self retain];
 	
 	NSLog(@"Initializing view...");
 	
@@ -22,34 +23,36 @@
 	[back setBackgroundColor:[UIColor blueColor]];
 	[self setView:back];
 	
-/*
+
 	CGRect startButtonFrame = CGRectMake(50.0, 100.0, 100.0, 30.0);
 	
 	UIButton *startButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	[startButton setFrame:startButtonFrame];
+
 	
-	[startButton setBackgroundColor:[UIColor greenColor]];
+	[startButton setBackgroundColor:[UIColor clearColor]];
 
 	[startButton setTitle:@"Start Game" forState:UIControlStateNormal];
-
-	[startButton addTarget:self action:@selector(startGame) forControlEvents:UIControlEventTouchUpInside];
+	SEL start = @selector(startGame);
+	[startButton addTarget:self action:start forControlEvents:UIControlEventTouchUpInside];
 	
 	[back addSubview:startButton];
-	[startButton autorelease];
-*/
-	 
 }
 
 -(void)startGame {
 	NSLog(@"In -[SetingsViewController startGame]");
 	
-	TicTacToeAppDelegate *appDelegate = ((TicTacToeAppDelegate *)[[UIApplication sharedApplication] delegate]);
+	tttvc = [[TicTacToeViewController alloc] init];
+	TicTacToeAppDelegate *appDelegate = (TicTacToeAppDelegate *)[[UIApplication sharedApplication] delegate];
+	
 	[appDelegate.window addSubview:tttvc.view];
 	[tttvc.view.window makeKeyAndVisible];
 	[appDelegate release];
+	[self release];
 }
 
 - (void)dealloc {
+	[tttvc release];
     [super dealloc];
 }
 

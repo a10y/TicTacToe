@@ -2,7 +2,7 @@
 //  Grid.m
 //  TicTacToe
 //
-//  Created by Caryn Gerber-Duffy on 7/7/10.
+//  Created by David Webb on 7/7/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
@@ -83,7 +83,7 @@
 		
 		
 		//Add invisible views to detect touch in cells.
-		//NOTE: Cells are notated as "b"ij, in which
+		//NOTE: Cells are notated (notationed?) as "b"ij, in which
 		//i is row & j is column starting at 0
 		
 		self.b00 = [[TouchCells alloc] initWithFrame:topLeft];

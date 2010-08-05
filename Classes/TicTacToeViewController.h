@@ -2,7 +2,7 @@
 //  TicTacToeViewController.h
 //  TicTacToe
 //
-//  Created by Caryn Gerber-Duffy on 6/30/10.
+//  Created by David Webb on 6/30/10.
 //  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
 

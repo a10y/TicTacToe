@@ -15,11 +15,14 @@
 		2899E5220DE3E06400AC0155 /* TicTacToeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TicTacToeViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* TicTacToeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TicTacToeViewController.m */; };
+		411791291207C15B00E18419 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411791281207C15B00E18419 /* Security.framework */; };
+		4117912D1207C16400E18419 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4117912C1207C16400E18419 /* SystemConfiguration.framework */; };
+		411791311207C16C00E18419 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411791301207C16C00E18419 /* MessageUI.framework */; };
+		415ABA27120A0F3D00F869BB /* TicTacToeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415ABA26120A0F3D00F869BB /* TicTacToeNavigationController.m */; };
 		AC4302FC11E52322006AD5C6 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4302FB11E52322006AD5C6 /* Grid.m */; };
 		AC4E283811E3BE1D008486E6 /* XView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E283711E3BE1D008486E6 /* XView.m */; };
 		AC4E283D11E3BE2A008486E6 /* OView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E283C11E3BE2A008486E6 /* OView.m */; };
 		AC5BC83911ED66ED00BA1DCF /* TouchCells.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC83811ED66ED00BA1DCF /* TouchCells.m */; };
-		AC5BCAAA11EEA3D500BA1DCF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5BCAA911EEA3D500BA1DCF /* Constants.m */; };
 		AC6EA78811F8D20000E95636 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6EA78711F8D20000E95636 /* SettingsViewController.m */; };
 		ACA8AEEF11F4057D004C4600 /* WinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA8AEEE11F4057D004C4600 /* WinViewController.xib */; };
 /* End PBXBuildFile section */
@@ -37,6 +40,11 @@
 		28D7ACF70DDB3853001CB0EB /* TicTacToeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TicTacToe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToe_Prefix.pch; sourceTree = "<group>"; };
+		411791281207C15B00E18419 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4117912C1207C16400E18419 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		411791301207C16C00E18419 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		415ABA25120A0F3D00F869BB /* TicTacToeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicTacToeNavigationController.h; path = ../TicTacToeNavigationController.h; sourceTree = "<group>"; };
+		415ABA26120A0F3D00F869BB /* TicTacToeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacToeNavigationController.m; path = ../TicTacToeNavigationController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TicTacToe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TicTacToe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AC4302FA11E52322006AD5C6 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
 		AC4302FB11E52322006AD5C6 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
@@ -47,7 +55,6 @@
 		AC4E283C11E3BE2A008486E6 /* OView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OView.m; sourceTree = "<group>"; };
 		AC5BC83711ED66ED00BA1DCF /* TouchCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchCells.h; sourceTree = "<group>"; };
 		AC5BC83811ED66ED00BA1DCF /* TouchCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchCells.m; sourceTree = "<group>"; };
-		AC5BCAA911EEA3D500BA1DCF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		AC6EA78611F8D20000E95636 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		AC6EA78711F8D20000E95636 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		ACA8AEEE11F4057D004C4600 /* WinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinViewController.xib; sourceTree = "<group>"; };
@@ -61,6 +68,9 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				411791291207C15B00E18419 /* Security.framework in Frameworks */,
+				4117912D1207C16400E18419 /* SystemConfiguration.framework in Frameworks */,
+				411791311207C16C00E18419 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +80,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				415ABA25120A0F3D00F869BB /* TicTacToeNavigationController.h */,
+				415ABA26120A0F3D00F869BB /* TicTacToeNavigationController.m */,
 				AC6EA78611F8D20000E95636 /* SettingsViewController.h */,
 				AC6EA78711F8D20000E95636 /* SettingsViewController.m */,
-				AC5BCAA911EEA3D500BA1DCF /* Constants.m */,
 				AC4303DD11E65075006AD5C6 /* Constants.h */,
 				1D3623240D0F684500981E51 /* TicTacToeAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TicTacToeAppDelegate.m */,
@@ -136,6 +147,9 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				411791281207C15B00E18419 /* Security.framework */,
+				4117912C1207C16400E18419 /* SystemConfiguration.framework */,
+				411791301207C16C00E18419 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,8 +216,8 @@
 				AC4E283D11E3BE2A008486E6 /* OView.m in Sources */,
 				AC4302FC11E52322006AD5C6 /* Grid.m in Sources */,
 				AC5BC83911ED66ED00BA1DCF /* TouchCells.m in Sources */,
-				AC5BCAAA11EEA3D500BA1DCF /* Constants.m in Sources */,
 				AC6EA78811F8D20000E95636 /* SettingsViewController.m in Sources */,
+				415ABA27120A0F3D00F869BB /* TicTacToeNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
