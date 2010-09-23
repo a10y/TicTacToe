@@ -24,7 +24,7 @@
 	
 	TTTViewController = [[TicTacToeViewController alloc] init];
 	
-	[appDelegate addSubview:TTTViewController];
+	[appDelegate.viewController addSubview:TTTViewController];
 	
 }
 
