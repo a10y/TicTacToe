@@ -1,0 +1,477 @@
+TTicTacToe
+v7
+r0
+t301963429.863428
+cCheck dependencies
+cProcessInfoPlistFile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
+cCompileXIB /Users/dwebb/Documents/TicTacToe/MainWindow.xib
+cCompileXIB /Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib
+cCompileXIB /Users/dwebb/Documents/TicTacToe/WinViewController.xib
+cProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o /Users/dwebb/Documents/TicTacToe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o /Users/dwebb/Documents/TicTacToe/Classes/XView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o /Users/dwebb/Documents/TicTacToe/Classes/OView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o /Users/dwebb/Documents/TicTacToe/Classes/Grid.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o /Users/dwebb/Documents/TicTacToe/Classes/Constants.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe normal i386
+cGenerateDSYMFile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app.dSYM /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe
+cTouch /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C2AE5F40000000000000132
+t1277879796
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/dwebb/Documents/TicTacToe/Classes/Constants.h
+c000000004C4CF990000000000000042B
+t1280113040
+s1067
+
+N/Users/dwebb/Documents/TicTacToe/Classes/Constants.m
+c000000004C4CF99000000000000001FD
+t1280113040
+s509
+i"Constants.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/Grid.h
+c000000004C4E2900000000000000033B
+t1280190720
+s827
+i<UIKit/UIKit.h>
+i"TouchCells.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/Grid.m
+c000000004C4CF9900000000000000FAB
+t1280113040
+s4011
+i"Grid.h"
+i"Constants.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/OView.h
+c000000004C4CF99000000000000000EF
+t1280113040
+s239
+i<UIKit/UIKit.h>
+
+N/Users/dwebb/Documents/TicTacToe/Classes/OView.m
+c000000004C4CF99000000000000002FF
+t1280113040
+s767
+i"OView.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.h
+c000000004C4E393700000000000001B3
+t1280194871
+s435
+i<UIKit/UIKit.h>
+i"TicTacToeViewController.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m
+c000000004C4E401600000000000007DF
+t1280196630
+s2015
+i"SettingsViewController.h"
+i"TicTacToeAppDelegate.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.h
+c000000004C4E283200000000000002B4
+t1280190514
+s692
+i<UIKit/UIKit.h>
+i"TicTacToeViewController.h"
+i"SettingsViewController.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m
+c000000004C4F61780000000000000BF8
+t1280270712
+s3064
+i"TicTacToeAppDelegate.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h
+c000000004C4E28F40000000000000221
+t1280190708
+s545
+i<UIKit/UIKit.h>
+i"XView.h"
+i"OView.h"
+i"Grid.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m
+c000000004C4F60DE0000000000001E8B
+t1280270558
+s7819
+i"TicTacToeViewController.h"
+i"Constants.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.h
+c000000004C4CF990000000000000023B
+t1280113040
+s571
+i<UIKit/UIKit.h>
+
+N/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m
+c000000004C4CF9900000000000000384
+t1280113040
+s900
+i"TouchCells.h"
+
+N/Users/dwebb/Documents/TicTacToe/Classes/XView.h
+c000000004C4CF99000000000000000F1
+t1280113040
+s241
+i<UIKit/UIKit.h>
+
+N/Users/dwebb/Documents/TicTacToe/Classes/XView.m
+c000000004C4CF99000000000000004A7
+t1280113040
+s1191
+i"XView.h"
+
+N/Users/dwebb/Documents/TicTacToe/MainWindow.xib
+c000000004C4CF9900000000000004E41
+t1280113040
+s20033
+
+N/Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib
+c000000004C4CF9900000000000001A4D
+t1280113040
+s6733
+
+N/Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch
+c000000004C4CF99000000000000000BB
+t1280113040
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dwebb/Documents/TicTacToe/WinViewController.xib
+c000000004C4CF9900000000000004998
+t1280113040
+s18840
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app
+t1280270629
+s272
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app.dSYM
+t1280270629
+s102
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/Info.plist
+t1280270498
+s599
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/MainWindow.nib
+t1280270501
+s1127
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/PkgInfo
+t1280270498
+s8
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe
+t1280270629
+s41592
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToeViewController.nib
+t1280270501
+s795
+
+N/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/WinViewController.nib
+t1280270502
+s1590
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o
+t1280270509
+s5168
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o
+t1280270508
+s48724
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o
+t1280270508
+s36524
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o
+t1280270509
+s43452
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList
+c000000004C4F60A2000000000000048C
+t1280270498
+s1164
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
+t1280270629
+s49456
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o
+t1280270629
+s59696
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o
+t1280270508
+s37220
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o
+t1280270508
+s36644
+
+N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
+t1280270507
+s6276
+
+N/Users/dwebb/Documents/TicTacToe/main.m
+c000000004C4CF9900000000000000171
+t1280113040
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch.gch
+t1280270506
+s14896144
+
+NTicTacToe-Info.plist
+c000000004C4CF990000000000000038D
+t1280113040
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301963428#301963429#0(0"0(0#1#0"8624744864#0"0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o /Users/dwebb/Documents/TicTacToe/Classes/Constants.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963308.977560
+e301963309.037048
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o
+x/Users/dwebb/Documents/TicTacToe/Classes/Constants.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/dwebb/Documents/TicTacToe/Classes/Constants.m301963308#301963309#0(0"0(0#0#52"/Users/dwebb/Documents/TicTacToe/Classes/Constants.m8624740672#1952"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/Constants.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Constants.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o /Users/dwebb/Documents/TicTacToe/Classes/Grid.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963308.618919
+e301963308.861701
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o
+x/Users/dwebb/Documents/TicTacToe/Classes/Grid.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/dwebb/Documents/TicTacToe/Classes/Grid.m301963308#301963308#0(0"0(0#0#47"/Users/dwebb/Documents/TicTacToe/Classes/Grid.m8624528416#1942"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/Grid.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/Grid.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o /Users/dwebb/Documents/TicTacToe/Classes/OView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963308.503123
+e301963308.618800
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o
+x/Users/dwebb/Documents/TicTacToe/Classes/OView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/dwebb/Documents/TicTacToe/Classes/OView.m301963308#301963308#0(0"0(0#0#48"/Users/dwebb/Documents/TicTacToe/Classes/OView.m8618023392#1944"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/OView.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/OView.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963309.037174
+e301963309.145304
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o
+x/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m: In function '-[SettingsViewController startGame]':
+o/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: 'UIWindow' may not respond to '-setView:'
+o/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: (Messages without a matching method signature
+o/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: will be assumed to return 'id' and accept
+o/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: '...' as arguments.)
+lSLF07#2@73"Compile /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m301963309#301963309#0(585"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m: In function '-[SettingsViewController startGame]':/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: 'UIWindow' may not respond to '-setView:'/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: (Messages without a matching method signature/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: will be assumed to return 'id' and accept/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m:46: warning: '...' as arguments.)2(22@41"'UIWindow' may not respond to '-setView:'301963309#118#121#0(6@65"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m301889430#46#0#46#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)301963309#239#125#0(6@65"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m301889430#46#0#46#0#0"0(0#0#65"/Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m8617818656#1978"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/SettingsViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/SettingsViewController.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963429.011150
+e301963429.241695
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
+x/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m301963429#301963429#0(0"0(0#0#63"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m8623485632#1974"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963429.241812
+e301963429.683442
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o
+x/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m301963429#301963429#0(0"0(0#0#66"/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m8623990400#1980"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeViewController.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963308.861823
+e301963308.977429
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o
+x/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m301963308#301963308#0(0"0(0#0#53"/Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m8625151200#1954"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/TouchCells.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TouchCells.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o /Users/dwebb/Documents/TicTacToe/Classes/XView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963308.386367
+e301963308.503011
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o
+x/Users/dwebb/Documents/TicTacToe/Classes/XView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/dwebb/Documents/TicTacToe/Classes/XView.m301963308#301963308#0(0"0(0#0#48"/Users/dwebb/Documents/TicTacToe/Classes/XView.m8623087328#1944"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/Classes/XView.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/XView.o0#
+
+CCompileC build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o /Users/dwebb/Documents/TicTacToe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963307.651761
+e301963307.787521
+r1
+xCompileC
+xbuild/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
+x/Users/dwebb/Documents/TicTacToe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/dwebb/Documents/TicTacToe/main.m301963307#301963307#0(0"0(0#0#39"/Users/dwebb/Documents/TicTacToe/main.m8624273504#1934"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch -c /Users/dwebb/Documents/TicTacToe/main.m -o /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dwebb/Documents/TicTacToe/MainWindow.xib
+s301963298.928518
+e301963301.854913
+r1
+xCompileXIB
+x/Users/dwebb/Documents/TicTacToe/MainWindow.xib
+o2010-07-27 15:41:41.661 Interface Builder Cocoa Touch Tool[28379:903] CFPreferences: user home directory at file://localhost/Users/dwebb/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib301963298#301963301#0(239"2010-07-27 15:41:41.661 Interface Builder Cocoa Touch Tool[28379:903] CFPreferences: user home directory at file://localhost/Users/dwebb/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#47"/Users/dwebb/Documents/TicTacToe/MainWindow.xib8623369952#556"    cd /Users/dwebb/Documents/TicTacToe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/MainWindow.nib /Users/dwebb/Documents/TicTacToe/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib
+s301963298.929406
+e301963301.855216
+r1
+xCompileXIB
+x/Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib
+o2010-07-27 15:41:41.662 Interface Builder Cocoa Touch Tool[28378:903] CFPreferences: user home directory at file://localhost/Users/dwebb/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@38"CompileXIB TicTacToeViewController.xib301963298#301963301#0(239"2010-07-27 15:41:41.662 Interface Builder Cocoa Touch Tool[28378:903] CFPreferences: user home directory at file://localhost/Users/dwebb/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#60"/Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib8623210432#582"    cd /Users/dwebb/Documents/TicTacToe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToeViewController.nib /Users/dwebb/Documents/TicTacToe/TicTacToeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dwebb/Documents/TicTacToe/WinViewController.xib
+s301963301.855299
+e301963302.545140
+r1
+xCompileXIB
+x/Users/dwebb/Documents/TicTacToe/WinViewController.xib
+o2010-07-27 15:41:42.319 Interface Builder Cocoa Touch Tool[28381:1903] CFPreferences: user home directory at file://localhost/Users/dwebb/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@32"CompileXIB WinViewController.xib301963301#301963302#0(240"2010-07-27 15:41:42.319 Interface Builder Cocoa Touch Tool[28381:1903] CFPreferences: user home directory at file://localhost/Users/dwebb/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#54"/Users/dwebb/Documents/TicTacToe/WinViewController.xib8625820256#570"    cd /Users/dwebb/Documents/TicTacToe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/WinViewController.nib /Users/dwebb/Documents/TicTacToe/WinViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app.dSYM /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe
+s301963429.735897
+e301963429.859500
+r1
+xGenerateDSYMFile
+x/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app.dSYM
+x/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe
+lSLF07#2@119"GenerateDSYMFile build/Release-iphonesimulator/TicTacToe.app.dSYM build/Release-iphonesimulator/TicTacToe.app/TicTacToe301963429#301963429#0(0"0(0#0#86"/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe8623324768#375"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app.dSYM0#
+
+CLd /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe normal i386
+s301963429.683551
+e301963429.735781
+r1
+xLd
+x/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe
+xnormal
+xi386
+lSLF07#2@91"Link /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe301963429#301963429#0(0"0(0#0#0"8624201888#888"    cd /Users/dwebb/Documents/TicTacToe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -filelist /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/TicTacToe0#
+
+CProcessInfoPlistFile /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
+s301963298.816872
+e301963298.928411
+r1
+xProcessInfoPlistFile
+x/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/Info.plist
+xTicTacToe-Info.plist
+lSLF07#2@28"Process TicTacToe-Info.plist301963298#301963298#0(0"0(0#0#53"/Users/dwebb/Documents/TicTacToe/TicTacToe-Info.plist8623864224#471"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TicTacToe-Info.plist -genpkginfo /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app/Info.plist0#
+
+CProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s301963302.545285
+e301963307.651510
+r1
+xProcessPCH
+x/var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch.gch
+xTicTacToe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile TicTacToe_Prefix.pch301963302#301963307#0(0"0(0#0#53"/Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch8624894016#1828"    cd /Users/dwebb/Documents/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator -I/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/include -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Release-iphonesimulator/TicTacToe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/dwebb/Documents/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-ekuvnmlvmwcdnfatxdrdzcxyfoup/TicTacToe_Prefix.pch.gch0#
+
+CTouch /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app
+s301963429.859601
+e301963429.863383
+r1
+xTouch
+x/Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app
+lSLF07#2@82"Touch /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app301963429#301963429#0(0"0(0#0#0"8618233216#270"    cd /Users/dwebb/Documents/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dwebb/Documents/TicTacToe/build/Release-iphonesimulator/TicTacToe.app0#
+
