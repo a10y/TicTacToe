@@ -19,6 +19,7 @@
 		4117912D1207C16400E18419 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4117912C1207C16400E18419 /* SystemConfiguration.framework */; };
 		411791311207C16C00E18419 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411791301207C16C00E18419 /* MessageUI.framework */; };
 		415ABA27120A0F3D00F869BB /* TicTacToeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415ABA26120A0F3D00F869BB /* TicTacToeNavigationController.m */; };
+		41EF44191252E5B300F332C5 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF44181252E5B300F332C5 /* Demo.m */; };
 		AC4302FC11E52322006AD5C6 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4302FB11E52322006AD5C6 /* Grid.m */; };
 		AC4E283811E3BE1D008486E6 /* XView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E283711E3BE1D008486E6 /* XView.m */; };
 		AC4E283D11E3BE2A008486E6 /* OView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E283C11E3BE2A008486E6 /* OView.m */; };
@@ -45,6 +46,8 @@
 		411791301207C16C00E18419 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		415ABA25120A0F3D00F869BB /* TicTacToeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicTacToeNavigationController.h; path = ../TicTacToeNavigationController.h; sourceTree = "<group>"; };
 		415ABA26120A0F3D00F869BB /* TicTacToeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacToeNavigationController.m; path = ../TicTacToeNavigationController.m; sourceTree = "<group>"; };
+		41EF44171252E5B300F332C5 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		41EF44181252E5B300F332C5 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TicTacToe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TicTacToe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AC4302FA11E52322006AD5C6 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
 		AC4302FB11E52322006AD5C6 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				415ABA25120A0F3D00F869BB /* TicTacToeNavigationController.h */,
+				41EF44171252E5B300F332C5 /* Demo.h */,
+				41EF44181252E5B300F332C5 /* Demo.m */,
 				415ABA26120A0F3D00F869BB /* TicTacToeNavigationController.m */,
 				AC6EA78611F8D20000E95636 /* SettingsViewController.h */,
 				AC6EA78711F8D20000E95636 /* SettingsViewController.m */,
@@ -218,6 +223,7 @@
 				AC5BC83911ED66ED00BA1DCF /* TouchCells.m in Sources */,
 				AC6EA78811F8D20000E95636 /* SettingsViewController.m in Sources */,
 				415ABA27120A0F3D00F869BB /* TicTacToeNavigationController.m in Sources */,
+				41EF44191252E5B300F332C5 /* Demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

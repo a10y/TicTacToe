@@ -23,17 +23,17 @@
     
     // Override point for customization after application launch.
 	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
-    
-	SettingsVC = [[SettingsViewController alloc] init];
+   // Demo *demoVC = [[Demo alloc] init];
+	//SettingsVC = [[SettingsViewController alloc] init];
 	
-	navigationController = [[TicTacToeNavigationController alloc] initWithRootViewController:SettingsVC];
-	
+	//navigationController = [[TicTacToeNavigationController alloc] initWithRootViewController:SettingsVC];
+	viewController = [[TicTacToeViewController alloc] init];
 	/*
 	NSArray *viewControllers = [[NSArray alloc] initWithObjects:SettingsVC, viewController,nil];
 	[navigationController setViewControllers:viewControllers];
 	*/
 	
-    [window addSubview:navigationController.view];
+    [window addSubview:viewController.view];
 	[window makeKeyAndVisible];
 	
     return YES;
@@ -42,7 +42,7 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application {
 
-    [navigationController popViewControllerAnimated:NO];
+//    [navigationController popViewControllerAnimated:NO];
 }
 
 
@@ -94,7 +94,7 @@
 	[navigationController release];
     [window release];
 	viewController = nil;
-	sViewController = nil;
+	//sViewController = nil;
 	window = nil;
 	    
 	//Call super dealloc 

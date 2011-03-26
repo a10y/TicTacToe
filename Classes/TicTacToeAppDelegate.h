@@ -10,13 +10,14 @@
 #import "TicTacToeViewController.h"
 #import "SettingsViewController.h"
 #import "TicTacToeNavigationController.h"
+#import "Demo.h"
 
 
 @class TicTacToeViewController;
 
 @interface TicTacToeAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    SettingsViewController  *sViewController;
+//    SettingsViewController  *sViewController;
 	TicTacToeViewController *viewController;
 	TicTacToeNavigationController *navigationController;
 }

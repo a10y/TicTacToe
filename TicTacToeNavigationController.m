@@ -19,12 +19,12 @@
 }
 
 -(void)startGame {
-
-	TicTacToeAppDelegate *appDelegate = ((TicTacToeAppDelegate *)[[UIApplication sharedApplication] delegate]);
-	
-	TTTViewController = [[TicTacToeViewController alloc] init];
-	
-	[appDelegate.viewController addSubview:TTTViewController];
+//
+//	TicTacToeAppDelegate *appDelegate = ((TicTacToeAppDelegate *)[[UIApplication sharedApplication] delegate]);
+//	
+//	TTTViewController = [[TicTacToeViewController alloc] init];
+//	
+//	[appDelegate.viewController addSubview:TTTViewController];
 	
 }
 
