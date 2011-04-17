@@ -15,38 +15,59 @@
 @synthesize SettingsVC;
 @synthesize viewController;
 @synthesize navigationController;
+@synthesize facebook;
+
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+NSString *appId = @"147331808616049";
+
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
-	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
-   // Demo *demoVC = [[Demo alloc] init];
-	//SettingsVC = [[SettingsViewController alloc] init];
+	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];	//I think this looks nicer
+   
+	[self setViewController: [[TicTacToeViewController alloc] init]];
 	
-	//navigationController = [[TicTacToeNavigationController alloc] initWithRootViewController:SettingsVC];
-	viewController = [[TicTacToeViewController alloc] init];
-	/*
-	NSArray *viewControllers = [[NSArray alloc] initWithObjects:SettingsVC, viewController,nil];
-	[navigationController setViewControllers:viewControllers];
-	*/
 	
     [window addSubview:viewController.view];
 	[window makeKeyAndVisible];
+
+	if (!(facebook = [[Facebook alloc] initWithAppId:@"147331808616049"])){
+		NSLog(@"Facebook failed");
+		return NO;
+	}
+	
+	NSLog(@"Facebook logged in successfully");
 	
     return YES;
 }
 
+/*
+ Initialize the Facebook application.
+ */
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+	
+	NSLog(@"Calling application:handleOpenURL...");
+	
+	//permissions: The parts of the user's information the app can access.
+	NSArray *permissions = [NSArray arrayWithObjects:@"read_friendlists", @"publish_stream", nil];
+	
+	NSLog(@"Getting Facebook permissions...");
+	
+	[facebook authorize:permissions delegate:self];
+	
+	
+	return [facebook handleOpenURL:url];
+}
 
-- (void)applicationWillResignActive:(UIApplication *)application {
+-(void)applicationWillResignActive:(UIApplication *)application {
 
 //    [navigationController popViewControllerAnimated:NO];
 }
 
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
+-(void)applicationDidEnterBackground:(UIApplication *)application {
 	//[application setStatusBarStyle:UIStatusBarStyleDefault];
     /*
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
@@ -72,10 +93,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
 
-	/*
-     Called when the application is about to terminate.
-     See also applicationDidEnterBackground:.
-     */
+	//Log out of facebook
+	[facebook logout:self];
 }
 
 

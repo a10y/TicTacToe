@@ -11,7 +11,7 @@
 #import "SettingsViewController.h"
 #import "TicTacToeNavigationController.h"
 #import "Demo.h"
-
+#import "FBConnect.h"
 
 @class TicTacToeViewController;
 
@@ -20,13 +20,17 @@
 //    SettingsViewController  *sViewController;
 	TicTacToeViewController *viewController;
 	TicTacToeNavigationController *navigationController;
+	
+	Facebook* facebook;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow								*window;
 @property (nonatomic, retain) IBOutlet SettingsViewController				*SettingsVC;
 @property (nonatomic, retain) IBOutlet TicTacToeViewController				*viewController;
 @property (nonatomic, retain) IBOutlet TicTacToeNavigationController		*navigationController;
+@property (nonatomic, retain) Facebook *facebook;
 
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url;
 
 @end
 

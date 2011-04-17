@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import	"FBConnect.h"
 
 @interface Demo : UIViewController {
 	UIButton *press;

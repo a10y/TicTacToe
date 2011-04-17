@@ -12,7 +12,7 @@
 
 
 typedef enum _turn {
-	X_TURN= 1,
+	X_TURN = 1,
 	O_TURN
 } turn;
 
@@ -20,6 +20,7 @@ typedef enum _turn {
 
 @interface TicTacToeViewController : UIViewController {
 
+	
 	Grid *grid;
 	int lastMove; //variable used to change turn. -1 = x, 1 = o;
 	Grid_BG g_bd;
@@ -28,8 +29,7 @@ typedef enum _turn {
 }
 
 
-	
-
+-(void)initFacebook;
 -(BOOL)xWon;
 -(BOOL)oWon;
 -(BOOL)gameOver;

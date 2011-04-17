@@ -11,7 +11,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-
 @implementation TicTacToeViewController
 
 
@@ -77,10 +76,14 @@
 		if (nextTurn == X_TURN) {
 		
 			XView *x = [[XView alloc] initWithFrame:tapFrame];
+			
 			NSLog(@"X alloced\n");
+			
 			[grid addSubview:x];
-            if([grid.tapView isKindOfClass:[TouchCells class]]) {								// This should always be true.
-                [((TouchCells *)grid.tapView) fill:YES];										// Make sure the view you tapped is cast to TouchCells to avoid warnings with -[TouchCells fill:(BOOL)]
+            
+			if([grid.tapView isKindOfClass:[TouchCells class]]) {								// This should always be true.
+            
+				[((TouchCells *)grid.tapView) fill:YES];										// Make sure the view you tapped is cast to TouchCells to avoid warnings with -[TouchCells fill:(BOOL)]
 				[((TouchCells *)grid.tapView) setFiller:X];
 				NSLog(@"filler: [%d]", [((TouchCells *)grid.tapView) filler]);
 				 

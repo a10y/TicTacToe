@@ -1,0 +1,4 @@
+In file included from /Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:9:
+/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.h:31: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:287: warning: incomplete implementation of class 'TicTacToeViewController'
+/Users/dwebb/Documents/TicTacToe/Classes/TicTacToeViewController.m:287: warning: method definition for '-initFacebook' not found

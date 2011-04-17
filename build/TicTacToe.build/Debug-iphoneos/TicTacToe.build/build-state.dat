@@ -1256,6 +1256,10 @@ N/Users/dwebb/Documents/TicTacToe/build/Debug-iphoneos/TicTacToe.app/WinViewCont
 t2
 s0
 
+N/Users/dwebb/Documents/TicTacToe/build/Debug-iphoneos/TicTacToe.app/icon.png
+t2
+s0
+
 N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphoneos/TicTacToe.build/Objects-normal/armv6/Base64Transcoder.o
 t2
 s0
@@ -2410,6 +2414,11 @@ N/Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphoneos/TicTacToe
 t2
 s0
 
+N/Users/dwebb/Documents/TicTacToe/icon.png
+c000000004DA9D66C0000000000001E24
+t1302976108
+s7716
+
 N/Users/dwebb/Documents/TicTacToe/main.m
 c000000004C5107420000000000000169
 t1280378690
@@ -2454,9 +2463,9 @@ t2
 s0
 
 NTicTacToe-Info.plist
-c000000004C51077F000000000000038D
-t1280378751
-s909
+c000000004DA9D68E0000000000000395
+t1302976142
+s917
 
 CAnalyze "/Users/dwebb/Documents/TicTacToe/ShareKit/Core/Base Sharer Classes/SHKOAuthSharer.m"
 r0
@@ -2674,6 +2683,9 @@ r0
 CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies319242910#319242910#0(133"[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain1(4@125"Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain319242910#18446744073709551615#0#0(1@0"0(0#1#0"8634939136#0"0#
+
+CCodeSign /Users/dwebb/Documents/TicTacToe/build/Debug-iphoneos/TicTacToe.app
+r0
 
 CCompileC build/TicTacToe.build/Debug-iphoneos/TicTacToe.build/Objects-normal/armv6/Base64Transcoder.o /Users/dwebb/Documents/TicTacToe/ShareKit/Core/Helpers/OAuth/Crytpo/Base64Transcoder.c normal armv6 c com.apple.compilers.gcc.4_2
 r0
@@ -3110,6 +3122,9 @@ r0
 CCompileXIB /Users/dwebb/Documents/TicTacToe/WinViewController.xib
 r0
 
+CCopyPNGFile /Users/dwebb/Documents/TicTacToe/build/Debug-iphoneos/TicTacToe.app/icon.png icon.png
+r0
+
 CCopyPlistFile /Users/dwebb/Documents/TicTacToe/build/Debug-iphoneos/TicTacToe.app/SHKSharers.plist ShareKit/Core/SHKSharers.plist
 r0
 
@@ -3159,6 +3174,9 @@ CProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode
 r0
 
 CProcessPCH /var/folders/tc/tcHjEWxGE4iOjGOCM26br++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TicTacToe_Prefix-gzysfwrkzfkpjvatompjqwqyenud/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/dwebb/Documents/TicTacToe/build/TicTacToe.build/Debug-iphoneos/TicTacToe.build/TicTacToe.xcent
 r0
 
 CTouch /Users/dwebb/Documents/TicTacToe/build/Debug-iphoneos/TicTacToe.app
